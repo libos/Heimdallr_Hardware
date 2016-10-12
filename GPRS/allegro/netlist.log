@@ -1,0 +1,49 @@
+{ Using PSTWRITER 16.3.0 p002Apr-01-2014 at 13:36:18 }
+
+#1 Warning [ALG0047] "No_connect" property on Pin "U1.49" ignored for U1: SCHEMATIC1, SIM800L (48.26, 55.88). Connecting pin to net "DVBAT".
+#2 Warning [ALG0047] "No_connect" property on Pin "U3.5" ignored for U3: SCHEMATIC1, SIM800L (208.28, 78.74). Connecting pin to net "SIM_DATA".
+#3 Warning [ALG0016] Part Name "DIODE BI-DIR TRIG_PESD5V0S1BL_PESD5V0S1BL" is renamed to "DIODE BI-DIR TRIG_PESD5V0S1BL_P".
+#4 Warning [ALG0016] Part Name "HEADER 6_FPC_6PIN_0_5MM_SIM800_PORTS" is renamed to "HEADER 6_FPC_6PIN_0_5MM_SIM800_".
+#5 Warning [ALG0016] Part Name "L_XAL4040_153MEC_15UH_COILCRAFT XAL4040" is renamed to "L_XAL4040_153MEC_15UH_COILCRAFT".
+#6 Warning [ALG0051] Pin "GND" is renamed to "GND#71" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#7 Warning [ALG0051] Pin "GND" is renamed to "GND#72" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#8 Warning [ALG0051] Pin "GND" is renamed to "GND#73" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#9 Warning [ALG0051] Pin "VBAT" is renamed to "VBAT#42" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#10 Warning [ALG0051] Pin "VBAT" is renamed to "VBAT#1" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#11 Warning [ALG0051] Pin "GND" is renamed to "GND#2" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#12 Warning [ALG0051] Pin "GND" is renamed to "GND#43" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#13 Warning [ALG0051] Pin "GND" is renamed to "GND#44" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#14 Warning [ALG0051] Pin "GND" is renamed to "GND#45" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#15 Warning [ALG0051] Pin "GND" is renamed to "GND#6" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#16 Warning [ALG0051] Pin "GND" is renamed to "GND#8" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#17 Warning [ALG0051] Pin "GND" is renamed to "GND#67" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#18 Warning [ALG0051] Pin "GND" is renamed to "GND#76" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#19 Warning [ALG0051] Pin "GND" is renamed to "GND#35" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#20 Warning [ALG0051] Pin "GND" is renamed to "GND#41" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#21 Warning [ALG0051] Pin "GND" is renamed to "GND#37" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#22 Warning [ALG0051] Pin "GND" is renamed to "GND#38" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#23 Warning [ALG0051] Pin "GND" is renamed to "GND#39" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#24 Warning [ALG0051] Pin "GND" is renamed to "GND#77" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#25 Warning [ALG0051] Pin "GND" is renamed to "GND#78" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#26 Warning [ALG0051] Pin "GND" is renamed to "GND#79" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#27 Warning [ALG0051] Pin "GND" is renamed to "GND#80" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#28 Warning [ALG0051] Pin "GND" is renamed to "GND#81" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#29 Warning [ALG0051] Pin "GND" is renamed to "GND#82" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#30 Warning [ALG0051] Pin "GND" is renamed to "GND#83" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#31 Warning [ALG0051] Pin "GND" is renamed to "GND#84" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#32 Warning [ALG0051] Pin "GND" is renamed to "GND#85" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#33 Warning [ALG0051] Pin "GND" is renamed to "GND#86" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#34 Warning [ALG0051] Pin "GND" is renamed to "GND#87" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#35 Warning [ALG0051] Pin "GND" is renamed to "GND#88" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#36 Warning [ALG0051] Pin "GND" is renamed to "GND#58" as visible power pin of same name already exists in Package SIM800L , U1: SCHEMATIC1, SIM800L (48.26, 55.88).
+#37 Warning [ALG0016] Part Name "SIM_CARD_SIM8050_NANOSIM_SIM_CARD" is renamed to "SIM_CARD_SIM8050_NANOSIM_SIM_CA".
+Scanning netlist files ...
+
+Loading... c:\users\liber\desktop\smartring-v1.03\gprs\allegro/pstchip.dat
+
+Loading... c:\users\liber\desktop\smartring-v1.03\gprs\allegro/pstchip.dat
+
+Loading... c:\users\liber\desktop\smartring-v1.03\gprs\allegro/pstxprt.dat
+
+Loading... c:\users\liber\desktop\smartring-v1.03\gprs\allegro/pstxnet.dat
+packaging the design view...

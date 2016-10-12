@@ -1,0 +1,186 @@
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on C:/Users/Liber/Desktop/SmartRing-V1.03/version2/MainBoard.brd
+Started on   Wed Mar 26 23:31:37 2014
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 54  Unplaced 0  Total 54
+        Nets:  W/Rats 41  No/Rats 0  Total 42
+        Pins:  W/Rats 189  No/Rats 0  Unused 13  Unplaced 0  Total 202
+        Equivalent ICs (1 pin = 1/14 EIC)  14
+        Router Keepin (in) (-0.6300,-0.6300) by (0.6300,0.6300)
+        Board area (sq in)  1.6
+        Board density (sq in/EIC) 0.110
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                147           0          147
+        Already Connected          147           0          147
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      27.97
+        Etch Length (inches)        24.25        0.00        24.25
+        Number of vias		    64           0           64
+        Vias per Connection          0.44        0.00         0.44
+        Smd pins with attached clines                       178
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H  6.00  6.00  6.00   6.00  6.00   24.00  25.00
+        X grids:     1.00  Offset: 0.00
+        Y grids:     1.00  Offset: 0.00
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     6  BOTTOM               V  6.00  6.00  6.00   6.00  6.00   24.00  25.00
+        X grids:     1.00  Offset: 0.00
+        Y grids:     1.00  Offset: 0.00
+
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                147           0          147
+        Already Connected          147           0          147
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        24.25        0.00        24.25
+        Number of vias		    64           0           64
+        Vias per Connection          0.44        0.00         0.44
+        Smd pins with attached clines                       178
+
+
+
+    Total cpu time - 0:7:52 hours
+    Total elapsed time - 5960:39:26 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Wed Mar 26 23:31:41 2014
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on C:/Users/Liber/Desktop/SmartRing-V1.03/version2/MainBoard.brd
+Started on   Wed Mar 26 23:31:42 2014
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 54  Unplaced 0  Total 54
+        Nets:  W/Rats 41  No/Rats 0  Total 42
+        Pins:  W/Rats 189  No/Rats 0  Unused 13  Unplaced 0  Total 202
+        Equivalent ICs (1 pin = 1/14 EIC)  14
+        Router Keepin (in) (-0.6300,-0.6300) by (0.6300,0.6300)
+        Board area (sq in)  1.6
+        Board density (sq in/EIC) 0.110
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                147           0          147
+        Already Connected          147           0          147
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      27.97
+        Etch Length (inches)        24.11        0.00        24.11
+        Number of vias		    64           0           64
+        Vias per Connection          0.44        0.00         0.44
+        Smd pins with attached clines                       178
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H  6.00  6.00  6.00   6.00  6.00   24.00  25.00
+        X grids:     1.00  Offset: 0.00
+        Y grids:     1.00  Offset: 0.00
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     6  BOTTOM               V  6.00  6.00  6.00   6.00  6.00   24.00  25.00
+        X grids:     1.00  Offset: 0.00
+        Y grids:     1.00  Offset: 0.00
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                147           0          147
+        Already Connected          147           0          147
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        24.17        0.00        24.17
+        Number of vias		    64           0           64
+        Vias per Connection          0.44        0.00         0.44
+        Smd pins with attached clines                       178
+
+
+
+    Total cpu time - 0:7:53 hours
+    Total elapsed time - 5960:39:27 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Wed Mar 26 23:31:42 2014

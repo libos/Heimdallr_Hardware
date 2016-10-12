@@ -1,0 +1,489 @@
+\t (00:00:00) allegro 16.3 p006 (v16-3-85F) i86
+\t (00:00:00) 
+
+\t (00:00:01) Opening existing drawing...
+\d (00:00:02) Database opened: C:/Users/Liber/Desktop/SmartRing-V1.03/version2/MainBoard.brd
+\t (00:00:02) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:00:02) trapsize 1033
+\i (00:00:02) trapsize 1013
+\i (00:00:02) trapsize 1031
+\i (00:00:02) trapsize 1031
+\i (00:00:02) generaledit 
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 615.77 -205.26
+\i (00:00:03) trapsize 516
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in 615.77 -205.25
+\t (00:00:04) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:00:04) trapsize 258
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 615.77 -205.25
+\t (00:00:04) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:00:04) trapsize 516
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 615.76 -205.24
+\i (00:00:04) trapsize 1031
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 615.77 -205.25
+\t (00:00:04) Grids are drawn 64.00, 64.00 apart for enhanced viewability.
+\i (00:00:04) trapsize 2063
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -67.95 -205.25
+\t (00:00:05) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:00:05) trapsize 1031
+\i (00:01:19) pick grid 563.29 -425.97
+\t (00:01:19) last pick:  563.00  -426.00
+\i (00:01:25) new 
+\i (00:01:47) newdrawfillin "MainBoard.brd" "Board"
+\t (00:01:47) Starting new drawing...
+\i (00:01:47) trapsize 6240
+\i (00:01:47) trapsize 6240
+\i (00:01:47) generaledit 
+\i (00:01:51) prmed 
+\i (00:01:52) setwindow form.prmedit
+\i (00:01:52) FORM prmedit display_grid YES 
+\i (00:01:52) FORM prmedit view_grids_button  
+\t (00:01:52) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:01:54) setwindow form.grid
+\i (00:01:54) FORM grid non_etch non_etch_x_grids 1 
+\i (00:01:55) FORM grid non_etch non_etch_y_grids 1 
+\i (00:01:57) FORM grid all_etch all_etch_x_grids 1 
+\i (00:01:58) FORM grid all_etch all_etch_y_grids 1 
+\i (00:02:00) FORM grid done  
+\t (00:02:00) Grids are drawn 64.00, 64.00 apart for enhanced viewability.
+\i (00:02:01) setwindow form.prmedit
+\i (00:02:01) FORM prmedit design  
+\i (00:02:04) FORM prmedit apply  
+\i (00:02:07) FORM prmedit cancel  
+\i (00:02:07) setwindow pcb
+\i (00:02:07) generaledit 
+\i (00:02:10) prmed 
+\i (00:02:11) setwindow form.prmedit
+\i (00:02:11) FORM prmedit display  
+\i (00:02:13) FORM prmedit display_grid YES 
+\i (00:02:14) FORM prmedit view_grids_button  
+\t (00:02:14) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:02:15) setwindow form.grid
+\i (00:02:15) FORM grid done  
+\i (00:02:16) setwindow form.prmedit
+\i (00:02:16) FORM prmedit apply  
+\i (00:02:17) FORM prmedit done  
+\i (00:02:17) setwindow pcb
+\i (00:02:17) generaledit 
+\i (00:02:17) prepopup 2814.35 1666.15
+\i (00:02:18) pick grid 2202.81 1566.30
+\t (00:02:18) last pick:  2203.00  1566.00
+\i (00:02:27) zoom fit 
+\i (00:02:27) trapsize 6240
+\i (00:02:30) color192 
+\i (00:02:30) setwindow cvf.dialog
+\i (00:02:30) cvf layer_mode
+\i (00:02:30) setwindow pcb
+\i (00:02:30) generaledit 
+\i (00:02:32) setwindow cvf.dialog
+\i (00:02:32) cvf layers_visible board_geometry/all_row TRUE
+\i (00:02:33) cvf layers_visible board_geometry/all_row FALSE
+\i (00:02:35) cvf layer_tree_item 'Stack-Up'
+\i (00:02:37) cvf select_color_cell 0
+\i (00:02:39) cvf layers_color stack-up stack-up/top 1
+\i (00:02:45) cvf apply
+\i (00:02:45) cvf okay
+\i (00:02:50) setwindow pcb
+\i (00:02:50) define subclass 
+\i (00:02:53) setwindow form.subclass
+\i (00:02:53) FORM subclass done  
+\i (00:02:53) setwindow pcb
+\i (00:02:53) generaledit 
+\i (00:02:59) xsection 
+   (00:03:00) Loading floor.cxt 
+   (00:03:00) Loading skillExt.cxt 
+   (00:03:00) Loading axlcore.cxt 
+\i (00:03:29) setwindow form.fplyrstack
+\i (00:03:29) FORM fplyrstack lsgrid cell 3,number 
+\i (00:03:30) FORM fplyrstack lsgrid cell 4,number 
+\i (00:03:30) FORM fplyrstack lsgrid cell 3,number 
+\i (00:03:31) FORM fplyrstack lsgrid rprepopup 3,number 
+\i (00:03:32) FORM fplyrstack lsgrid rpopup 3,number 'Add Layer Above' 
+   (00:03:32) Loading signal.cxt 
+\i (00:03:35) FORM fplyrstack lsgrid rprepopup 3,name 
+\i (00:03:35) FORM fplyrstack lsgrid rpopup 3,name 'Add Layer Above' 
+\i (00:03:36) FORM fplyrstack lsgrid rprepopup 4,name 
+\i (00:03:36) FORM fplyrstack lsgrid rpopup 4,name 'Add Layer Above' 
+\i (00:03:37) FORM fplyrstack lsgrid rprepopup 5,name 
+\i (00:03:37) FORM fplyrstack lsgrid rpopup 5,name 'Add Layer Above' 
+\i (00:03:37) FORM fplyrstack lsgrid rprepopup 5,name 
+\i (00:03:38) FORM fplyrstack lsgrid rpopup 5,name 'Add Layer Above' 
+\i (00:03:38) FORM fplyrstack lsgrid rprepopup 5,type 
+\i (00:03:39) FORM fplyrstack lsgrid rpopup 5,type 'Add Layer Above' 
+\i (00:03:39) FORM fplyrstack lsgrid rprepopup 5,name 
+\i (00:03:39) FORM fplyrstack lsgrid rpopup 5,name 'Add Layer Above' 
+\i (00:03:40) FORM fplyrstack lsgrid lprepopup 4,type 
+\i (00:03:40) FORM fplyrstack lsgrid cell 4,type 
+\i (00:03:40) FORM fplyrstack lsgrid cell 3,type 
+\i (00:03:41) FORM fplyrstack lsgrid lprepopup 4,type 
+\i (00:03:41) FORM fplyrstack lsgrid cell 4,type 
+\i (00:03:42) FORM fplyrstack lsgrid change 4,type CONDUCTOR 
+\i (00:03:43) FORM fplyrstack lsgrid lprepopup 6,type 
+\i (00:03:43) FORM fplyrstack lsgrid cell 6,type 
+\i (00:03:43) FORM fplyrstack lsgrid change 6,type CONDUCTOR 
+\i (00:03:44) FORM fplyrstack lsgrid lprepopup 8,type 
+\i (00:03:44) FORM fplyrstack lsgrid cell 8,type 
+\i (00:03:45) FORM fplyrstack lsgrid change 8,type CONDUCTOR 
+\i (00:03:45) FORM fplyrstack lsgrid lprepopup 10,type 
+\i (00:03:46) FORM fplyrstack lsgrid cell 10,type 
+\i (00:03:48) FORM fplyrstack lsgrid lprepopup 10,type 
+\i (00:03:50) FORM fplyrstack lsgrid lprepopup 10,type 
+\i (00:03:50) FORM fplyrstack lsgrid cell 9,name 
+\i (00:03:51) FORM fplyrstack lsgrid cell 10,number 
+\i (00:03:51) FORM fplyrstack lsgrid rprepopup 10,number 
+\i (00:03:52) FORM fplyrstack lsgrid rpopup 10,number 'Add Layer Above' 
+\i (00:03:52) FORM fplyrstack lsgrid lprepopup 10,type 
+\i (00:03:53) FORM fplyrstack lsgrid cell 10,type 
+\i (00:03:53) FORM fplyrstack lsgrid change 10,type CONDUCTOR 
+\i (00:03:54) FORM fplyrstack lsgrid cell 4,name 
+\i (00:04:18) FORM fplyrstack lsgrid change 4,name GND 
+\i (00:04:19) FORM fplyrstack lsgrid cell 6,name 
+\i (00:04:25) FORM fplyrstack lsgrid change 6,name SIGNAL1 
+\i (00:04:26) FORM fplyrstack lsgrid cell 7,name 
+\i (00:04:26) FORM fplyrstack lsgrid cell 8,name 
+\i (00:04:31) FORM fplyrstack lsgrid change 8,name SIGNAL2 
+\i (00:04:32) FORM fplyrstack lsgrid cell 10,name 
+\i (00:04:36) FORM fplyrstack lsgrid change 10,name POWER 
+\i (00:04:52) FORM fplyrstack apply  
+\i (00:04:52) FORM fplyrstack done  
+\i (00:04:52) setwindow pcb
+\i (00:04:52) generaledit 
+\i (00:04:59) enved 
+\i (00:05:00) generaledit 
+\i (00:05:00) setwindow form.prfedit
+\i (00:05:00) FORM prfedit cancel  
+\i (00:05:04) setwindow pcb
+\i (00:05:04) shape global param 
+\i (00:05:04) generaledit 
+\i (00:05:05) setwindow form.dyn_xshape
+\i (00:05:05) FORM dyn_xshape void_controls  
+\i (00:05:06) FORM dyn_xshape art_format Gerber RS274X 
+\i (00:05:07) FORM dyn_xshape apply  
+\i (00:05:08) FORM dyn_xshape done  
+\i (00:05:17) setwindow pcb
+\i (00:05:17) color192 
+\i (00:05:17) setwindow cvf.dialog
+\i (00:05:17) cvf layer_mode
+\i (00:05:17) setwindow pcb
+\i (00:05:17) generaledit 
+\i (00:05:19) setwindow cvf.dialog
+\i (00:05:19) cvf layer_tree_item 'Stack-Up'
+\i (00:05:26) cvf select_color_cell 16
+\i (00:05:27) cvf layers_color stack-up stack-up/bottom 17
+\i (00:05:30) cvf select_color_cell 0
+\i (00:05:32) cvf layers_color stack-up drc/all_row 1
+\i (00:05:36) cvf select_color_cell 48
+\i (00:05:37) cvf layers_color stack-up stack-up/signal1 49
+\i (00:05:41) cvf select_color_cell 31
+\i (00:05:41) cvf select_color_cell 47
+\i (00:05:42) cvf select_color_cell 46
+\i (00:05:43) cvf select_color_cell 45
+\i (00:05:44) cvf select_color_cell 12
+\i (00:05:47) cvf layers_color stack-up stack-up/signal2 13
+\i (00:05:48) cvf select_color_cell 7
+\i (00:05:50) cvf layers_color stack-up stack-up/signal2 8
+\i (00:05:52) cvf select_color_cell 46
+\i (00:05:53) cvf layers_color stack-up stack-up/signal2 47
+\i (00:05:55) cvf select_color_cell 10
+\i (00:05:56) cvf select_color_cell 9
+\i (00:05:56) cvf select_color_cell 8
+\i (00:05:57) cvf select_color_cell 7
+\i (00:05:58) cvf layers_color stack-up stack-up/signal2 8
+\i (00:06:00) cvf select_color_cell 65
+\i (00:06:02) cvf layers_color stack-up stack-up/gnd 66
+\i (00:06:02) cvf layers_color stack-up stack-up/power 66
+\i (00:06:07) cvf select_color_cell 82
+\i (00:06:08) cvf select_color_cell 83
+\i (00:06:10) cvf layers_color stack-up stack-up/soldermask_top 84
+\i (00:06:10) cvf layers_color stack-up stack-up/soldermask_bottom 84
+\i (00:06:12) cvf select_color_cell 84
+\i (00:06:13) cvf layers_color stack-up stack-up/pastemask_top 85
+\i (00:06:13) cvf layers_color stack-up stack-up/pastemask_bottom 85
+\i (00:06:18) cvf select_color_cell 85
+\i (00:06:19) cvf layers_color stack-up stack-up/filmmasktop 86
+\i (00:06:19) cvf layers_color stack-up stack-up/filmmaskbottom 86
+\i (00:06:20) cvf layers_color stack-up stack-up/pastemask_bottom 86
+\i (00:06:21) cvf layers_color stack-up stack-up/pastemask_top 86
+\i (00:06:22) cvf select_color_cell 86
+\i (00:06:23) cvf select_color_cell 87
+\i (00:06:24) cvf layers_color stack-up stack-up/filmmaskbottom 88
+\i (00:06:24) cvf layers_color stack-up stack-up/filmmasktop 88
+\i (00:06:32) cvf global_invisible
+\i (00:06:35) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:06:35) cvf layers_visible stack-up stack-up/gnd TRUE
+\i (00:06:36) cvf layers_visible stack-up stack-up/signal2 TRUE
+\i (00:06:37) cvf layers_visible stack-up stack-up/signal1 TRUE
+\i (00:06:37) cvf layers_visible stack-up stack-up/power TRUE
+\i (00:06:38) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:06:40) cvf layers_visible stack-up stack-up/soldermask_top TRUE
+\i (00:06:41) cvf layers_visible stack-up stack-up/soldermask_bottom TRUE
+\i (00:06:42) cvf layers_visible stack-up stack-up/pastemask_top TRUE
+\i (00:06:42) cvf layers_visible stack-up stack-up/pastemask_bottom TRUE
+\i (00:06:45) cvf select_color_cell 0
+\i (00:06:47) cvf layers_color stack-up drc/all_row 1
+\i (00:06:48) cvf apply
+\i (00:06:52) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:06:53) cvf layer_tree_item 'Stack-Up'
+\i (00:06:53) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:06:57) cvf layer_tree_item 'Areas'
+\i (00:07:03) cvf layer_tree_item 'Board Geometry'
+\i (00:07:05) cvf layer_tree_item 'Areas'
+\i (00:07:09) cvf layers_visible areas package_keepin/through_all TRUE
+\i (00:07:09) cvf layers_visible areas route_keepin/through_all TRUE
+\i (00:07:11) cvf layer_tree_item 'Package Geometry'
+\i (00:07:11) cvf layer_tree_item 'Board Geometry'
+\i (00:07:14) cvf layers_visible board_geometry/outline TRUE
+\i (00:07:16) cvf select_color_cell 80
+\i (00:07:17) cvf select_color_cell 81
+\i (00:07:19) cvf layers_color board_geometry/silkscreen_top 82
+\i (00:07:20) cvf select_color_cell 80
+\i (00:07:21) cvf layers_color board_geometry/silkscreen_bottom 81
+\i (00:07:22) cvf select_color_cell 81
+\i (00:07:24) cvf select_color_cell 83
+\i (00:07:25) cvf layers_color board_geometry/soldermask_bottom 84
+\i (00:07:25) cvf layers_color board_geometry/soldermask_top 84
+\i (00:07:27) cvf select_color_cell 84
+\i (00:07:33) cvf layer_tree_item 'Package Geometry'
+\i (00:07:36) cvf layers_color package_geometry/pastemask_top 85
+\i (00:07:37) cvf layers_color package_geometry/pastemask_bottom 85
+\i (00:07:38) cvf select_color_cell 83
+\i (00:07:39) cvf layers_color package_geometry/silkscreen_bottom 84
+\i (00:07:40) cvf layers_color package_geometry/silkscreen_top 84
+\i (00:07:40) cvf layers_color package_geometry/soldermask_bottom 84
+\i (00:07:41) cvf layers_color package_geometry/soldermask_top 84
+\i (00:07:42) cvf select_color_cell 81
+\i (00:07:43) cvf layers_color package_geometry/silkscreen_bottom 82
+\i (00:07:44) cvf layers_color package_geometry/silkscreen_top 82
+\i (00:07:45) cvf select_color_cell 80
+\i (00:07:46) cvf layers_color package_geometry/silkscreen_bottom 81
+\i (00:07:47) cvf layers_visible package_geometry/soldermask_top TRUE
+\i (00:07:47) cvf layers_visible package_geometry/soldermask_bottom TRUE
+\i (00:07:48) cvf layers_visible package_geometry/silkscreen_top TRUE
+\i (00:07:48) cvf layers_visible package_geometry/silkscreen_bottom TRUE
+\i (00:07:49) cvf layers_visible package_geometry/pastemask_top TRUE
+\i (00:07:49) cvf layers_visible package_geometry/pastemask_bottom TRUE
+\i (00:07:58) cvf select_color_cell 87
+\i (00:07:59) cvf layers_color package_geometry/place_bound_bottom 88
+\i (00:08:00) cvf layers_color package_geometry/place_bound_top 88
+\i (00:08:02) cvf layers_visible package_geometry/place_bound_top TRUE
+\i (00:08:04) cvf layers_visible package_geometry/place_bound_top FALSE
+\i (00:08:05) cvf layers_visible package_geometry/place_bound_top TRUE
+\i (00:08:08) cvf layer_tree_item 'Components'
+\i (00:08:10) cvf layer_tree_item 'Drawing Format'
+\i (00:08:10) cvf layer_tree_item 'Manufacturing'
+\i (00:08:13) cvf apply
+\i (00:08:14) cvf select_color_cell 81
+\i (00:08:15) cvf layers_color manufacturing/autosilk_top 82
+\i (00:08:16) cvf select_color_cell 80
+\i (00:08:17) cvf layers_color manufacturing/autosilk_bottom 81
+\i (00:08:18) cvf apply
+\i (00:08:20) cvf layer_tree_item 'Stack-Up'
+\i (00:08:29) cvf next
+\i (00:08:32) cvf next
+\i (00:08:33) cvf next
+\i (00:08:33) cvf next
+\i (00:08:34) cvf next
+\i (00:08:51) cvf layers_color stack-up stack-up/signal2 81
+\i (00:08:55) cvf layers_color stack-up stack-up/signal2 81
+\i (00:08:55) cvf layers_color stack-up stack-up/signal2 81
+\i (00:08:58) cvf next
+\i (00:09:00) cvf next
+\i (00:09:01) cvf next
+\i (00:09:01) cvf next
+\i (00:09:02) cvf next
+\i (00:09:11) cvf customize 81 45698990
+\i (00:09:13) cvf layers_color stack-up stack-up/signal2 81
+\i (00:09:18) cvf apply
+\i (00:09:19) cvf okay
+\i (00:09:24) setwindow pcb
+\i (00:09:24) save 
+\i (00:09:25) generaledit 
+\i (00:09:37) prmed 
+\i (00:09:38) setwindow form.prmedit
+\i (00:09:38) FORM prmedit design  
+\i (00:09:40) FORM prmedit units Millimeter 
+\e (00:09:40) Change may cause round-off; run dbcheck.
+\i (00:09:41) FORM prmedit apply  
+\w (00:09:42) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:09:42) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:09:42) setwindow pcb
+\i (00:09:42) trapsize 15850
+\t (00:09:42) Performing DRC...
+\t (00:09:42) Multithreaded DRC update (2 threads).
+\t (00:09:42) No DRC errors detected.
+\i (00:09:42) setwindow form.prmedit
+\i (00:09:42) FORM prmedit done  
+\i (00:09:42) setwindow pcb
+\i (00:09:42) generaledit 
+\i (00:09:45) draft param 
+\i (00:09:45) generaledit 
+\i (00:09:47) setwindow form.draft_parms
+\i (00:09:47) FORM draft_parms text  
+\i (00:09:48) FORM draft_parms general  
+\i (00:09:48) FORM draft_parms unit_metric NO 
+\i (00:09:49) FORM draft_parms text  
+\i (00:09:52) FORM draft_parms units Mils 
+\i (00:09:54) FORM draft_parms dual_dimensions YES 
+\i (00:10:01) FORM draft_parms text_block_text 4 
+\i (00:10:01) FORM draft_parms apply  
+\i (00:10:02) FORM draft_parms apply  
+\i (00:10:04) FORM draft_parms lines  
+\i (00:10:05) FORM draft_parms balloons  
+\i (00:10:07) FORM draft_parms tolerancing  
+\i (00:10:08) FORM draft_parms general  
+\i (00:10:09) FORM draft_parms done  
+\i (00:10:11) setwindow pcb
+\i (00:10:11) save 
+\f (00:10:11) C:/Users/Liber/Desktop/SmartRing-V1.03/version3/MainBoard.brd: File Exists. Overwrite? 
+\i (00:10:12) fillin yes 
+\i (00:10:12) generaledit 
+\i (00:10:17) add line 
+\i (00:10:18) zoom in 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom in -31.2250 3.3285
+\i (00:10:18) trapsize 7925
+\i (00:10:18) zoom in 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom in -66.4125 3.3286
+\t (00:10:18) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:10:18) trapsize 3963
+\i (00:10:20) zoom fit 
+\t (00:10:20) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:10:20) trapsize 15850
+\i (00:10:33) pick -4 -25.69 
+\t (00:10:33) last pick:  -4.0000  -25.6900
+\i (00:10:34) zoom in 1 
+\i (00:10:34) setwindow pcb
+\i (00:10:34) zoom in -9.6686 -31.5420
+\i (00:10:34) trapsize 7925
+\i (00:10:35) zoom in 1 
+\i (00:10:35) setwindow pcb
+\i (00:10:35) zoom in -55.6343 -31.5420
+\t (00:10:35) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:10:35) trapsize 3963
+\i (00:10:36) zoom in 1 
+\i (00:10:36) setwindow pcb
+\i (00:10:36) zoom in 0.0793 -27.1039
+\i (00:10:36) trapsize 1981
+\i (00:10:37) zoom in 1 
+\i (00:10:37) setwindow pcb
+\i (00:10:37) zoom in 0.0793 -27.1039
+\t (00:10:37) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
+\i (00:10:37) trapsize 991
+\i (00:10:37) zoom in 1 
+\i (00:10:37) setwindow pcb
+\i (00:10:37) zoom in 0.0793 -27.1039
+\i (00:10:37) trapsize 495
+\i (00:10:37) zoom out 1 
+\i (00:10:37) setwindow pcb
+\i (00:10:37) zoom out 0.0794 -27.1038
+\i (00:10:37) trapsize 991
+\i (00:10:37) zoom out 1 
+\i (00:10:37) setwindow pcb
+\i (00:10:37) zoom out 0.0793 -27.1038
+\t (00:10:37) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:10:37) trapsize 1981
+\i (00:10:37) zoom out 1 
+\i (00:10:37) setwindow pcb
+\i (00:10:37) zoom out 0.0794 -27.1039
+\i (00:10:37) trapsize 3963
+\i (00:10:37) zoom out 1 
+\i (00:10:37) setwindow pcb
+\i (00:10:37) zoom out 0.0793 -27.1038
+\t (00:10:37) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:10:37) trapsize 7925
+\i (00:10:37) zoom out 1 
+\i (00:10:37) setwindow pcb
+\i (00:10:37) zoom out 55.7935 -27.1039
+\i (00:10:37) trapsize 15850
+\i (00:10:37) zoom out 1 
+\i (00:10:37) setwindow pcb
+\i (00:10:37) zoom out 213.1856 -13.7897
+\i (00:10:37) trapsize 15850
+\i (00:10:38) zoom out 1 
+\i (00:10:38) setwindow pcb
+\i (00:10:38) zoom out 213.1856 -13.7897
+\i (00:10:38) trapsize 15850
+\i (00:10:39) zoom in 1 
+\i (00:10:39) setwindow pcb
+\i (00:10:39) zoom in -4.5966 -11.2537
+\i (00:10:39) trapsize 7925
+\i (00:10:39) zoom in 1 
+\i (00:10:39) setwindow pcb
+\i (00:10:39) zoom in -53.0983 -11.2536
+\t (00:10:39) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:10:39) trapsize 3963
+\i (00:10:40) zoom in 1 
+\i (00:10:40) setwindow pcb
+\i (00:10:40) zoom in -40.9728 -14.2652
+\i (00:10:40) trapsize 1981
+\i (00:10:40) zoom out 1 
+\i (00:10:40) setwindow pcb
+\i (00:10:40) zoom out -40.9727 -14.2652
+\i (00:10:40) trapsize 3963
+\i (00:10:41) zoom out 1 
+\i (00:10:41) setwindow pcb
+\i (00:10:41) zoom out -40.9728 -14.2651
+\t (00:10:41) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:10:41) trapsize 7925
+\i (00:10:41) zoom out 1 
+\i (00:10:41) setwindow pcb
+\i (00:10:41) zoom out -28.8474 -14.2652
+\i (00:10:41) trapsize 15850
+\i (00:10:41) zoom out 1 
+\i (00:10:41) setwindow pcb
+\i (00:10:41) zoom out 43.9051 -23.2998
+\i (00:10:41) trapsize 15850
+\i (00:10:42) zoom in 1 
+\i (00:10:42) setwindow pcb
+\i (00:10:42) zoom in 13.1557 -18.5448
+\i (00:10:42) trapsize 7925
+\i (00:10:44) zoom in 1 
+\i (00:10:44) setwindow pcb
+\i (00:10:44) zoom in -42.4786 -18.2278
+\t (00:10:44) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:10:44) trapsize 3963
+\i (00:10:44) zoom out 1 
+\i (00:10:44) setwindow pcb
+\i (00:10:44) zoom out -39.7841 -18.7033
+\t (00:10:44) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:10:44) trapsize 7925
+\i (00:10:44) zoom out 1 
+\i (00:10:44) setwindow pcb
+\i (00:10:44) zoom out -37.0895 -18.7033
+\i (00:10:44) trapsize 15850
+\i (00:10:44) zoom out 1 
+\i (00:10:44) setwindow pcb
+\i (00:10:44) zoom out 27.4209 -19.8128
+\i (00:10:44) trapsize 15850
+\i (00:10:46) prepopup 47.0752 9.0346
+\i (00:10:48) cancel 
+\i (00:10:48) generaledit 
+\i (00:10:51) zoom fit 
+\i (00:10:51) trapsize 15850
+\i (00:10:53) prmed 
+\i (00:10:56) setwindow form.prmedit
+\i (00:10:56) FORM prmedit text  
+\i (00:10:57) FORM prmedit design  
+\i (00:11:03) FORM prmedit done  
+\i (00:11:03) setwindow pcb
+\i (00:11:03) generaledit 
+\i (00:11:04) drag_start grid 10.3026 -86.3838
+\i (00:11:05) drag_stop
+\i (00:11:05) drag_start -61.9744 43.5881
+\i (00:11:06) drag_stop 57.2193 -71.1676
+\i (00:11:06) zoom in 1 
+\i (00:11:06) setwindow pcb
+\i (00:11:06) zoom in 25.8359 -7.4496
+\i (00:1

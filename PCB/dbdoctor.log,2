@@ -1,0 +1,17 @@
+
+****************************************
+DBDOCTOR of drawing C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/SmartRing.brd
+****************************************
+
+ERROR IN ATTRIBUTE 
+  POINTER TO ATTRIBUTE INVALID
+   Error was fixed.
+
+Number of Xnets before update: 0        after update: 0
+Number of Diff Pairs before update: 0   after update: 0
+
+Regenerating DRC
+  0 original DRC errors replaced by
+  0 current DRC errors.
+
+0 warnings, 1 errors detected, 1 errors  fixed.

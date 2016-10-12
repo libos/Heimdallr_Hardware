@@ -1,0 +1,156 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : SmartRing.brd                                 )
+(    Software Version : 16.3p006                                      )
+(    Date/Time        : Sat Jan 25 21:39:52 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for both sides of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.000
+Max Text displacement is 100.000
+Min Line Length is 0.000
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : None
+ Device Type          : None
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : None
+ User Part Number     : Silkscreen
+
+
+     ----- Top Silkscreen -----
+
+Text string 'C28' is not at a suitable location
+(location: -511.528, -3.000)
+Text string 'HEADER3' is not at a suitable location
+(location: 709.000, -428.472)
+Text string 'TP1' is not at a suitable location
+(location: 1939.000, -106.472)
+Text string 'TP2' is not at a suitable location
+(location: -507.000, -183.472)
+Text string 'TP4' is not at a suitable location
+(location: -333.000, 510.528)
+Text string 'TP7' is not at a suitable location
+(location: -1331.000, 364.528)
+Text string 'U2' is not at a suitable location
+(location: -246.000, 63.000)
+Text string 'HEADER1' is not at a suitable location
+(location: 1166.000, 441.472)
+Text string 'B1' is not at a suitable location
+(location: 1045.000, 249.528)
+Text string 'U4' is not at a suitable location
+(location: -191.000, -175.472)
+Text string 'BAT1' is not at a suitable location
+(location: -250.000, 488.528)
+Text string 'SW1' is not at a suitable location
+(location: 1481.000, -88.472)
+Text string 'SW3' is not at a suitable location
+(location: 150.000, -238.472)
+Text string 'C26' is not at a suitable location
+(location: -704.000, 381.472)
+Text string 'LED1' is not at a suitable location
+(location: 518.000, 326.528)
+Text string 'LED4' is not at a suitable location
+(location: -140.000, -140.528)
+Text string 'LED2' is not at a suitable location
+(location: 518.000, 286.528)
+Text string 'LED3' is not at a suitable location
+(location: 518.000, 247.528)
+Text string 'LED5' is not at a suitable location
+(location: -147.000, 252.528)
+Text string 'R10' is not at a suitable location
+(location: -140.000, -101.528)
+Text string 'R37' is not at a suitable location
+(location: -877.000, 329.528)
+Text string 'R44' is not at a suitable location
+(location: -855.472, 359.000)
+Text string 'R14' is not at a suitable location
+(location: -238.000, -42.472)
+Text string 'R22' is not at a suitable location
+(location: 1723.472, -58.000)
+Text string 'R35' is not at a suitable location
+(location: -951.000, 368.528)
+Text string 'R36' is not at a suitable location
+(location: -952.000, 329.528)
+Text string 'R43' is not at a suitable location
+(location: -796.000, 332.472)
+Text string 'R18' is not at a suitable location
+(location: -234.000, 152.472)
+Text string 'R19' is not at a suitable location
+(location: -234.000, 249.528)
+Text string 'R25' is not at a suitable location
+(location: -74.472, -220.000)
+Text string 'R26' is not at a suitable location
+(location: -152.000, -352.472)
+Text string 'R27' is not at a suitable location
+(location: -220.000, -101.472)
+Text string 'R30' is not at a suitable location
+(location: 568.472, -63.000)
+Text string 'R5' is not at a suitable location
+(location: 1239.528, -79.000)
+Text string 'R6' is not at a suitable location
+(location: 1199.528, -39.000)
+Text string 'R31' is not at a suitable location
+(location: -338.000, 202.528)
+Text string 'R33' is not at a suitable location
+(location: -691.000, 355.528)
+Text string 'R4' is not at a suitable location
+(location: 1207.000, 229.528)
+Text string 'R7' is not at a suitable location
+(location: 1229.000, -106.472)
+Text string 'R9' is not at a suitable location
+(location: 1230.000, -145.472)
+Text string 'R11' is not at a suitable location
+(location: -148.000, 213.528)
+Text string 'R2' is not at a suitable location
+(location: 437.000, 286.528)
+Text string 'R12' is not at a suitable location
+(location: -140.000, -63.528)
+Text string 'Y1' is not at a suitable location
+(location: 825.000, 249.528)
+Text string 'CC2541' is not at a suitable location
+(location: 748.000, 301.000)
+
+     ----- Bottom Silkscreen -----
+
+Text string 'C18' is not at a suitable location
+(location: 21.000, 29.528)
+Text string 'C21' is not at a suitable location
+(location: -161.000, -151.472)
+Text string 'HEADER2' is not at a suitable location
+(location: 1732.000, -259.528)
+Text string 'C10' is not at a suitable location
+(location: 1591.000, 356.528)
+Text string 'C23' is not at a suitable location
+(location: 263.000, 146.472)
+Text string 'C13' is not at a suitable location
+(location: 1497.000, 358.528)
+Text string 'C9' is not at a suitable location
+(location: 1591.000, 318.528)
+Text string 'D2' is not at a suitable location
+(location: 187.000, 120.528)
+Text string 'R23' is not at a suitable location
+(location: -193.000, -272.528)
+Text string 'R34' is not at a suitable location
+(location: -349.000, 49.528)
+Text string 'R24' is not at a suitable location
+(location: -139.000, -297.472)
+Text string 'R38' is not at a suitable location
+(location: -349.000, 87.528)
+Text string 'R42' is not at a suitable location
+(location: -768.000, 296.472)
+
+Total Failures: 58
+
+Log End
+

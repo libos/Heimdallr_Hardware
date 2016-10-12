@@ -1,0 +1,553 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : SmartRing.brd                                 )
+(    Software Version : 16.3p003                                      )
+(    Date/Time        : Mon Feb 10 17:13:57 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                5.5
+    ABORT-ON-ERROR        YES
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: Segment with same start and end points at
+	(-548.450 -215.417) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-281.522 343.500) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1093.512 239.685) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1068.996 512.996) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1265.001 73.377) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00700                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.04331                                  DARK 
+  CIRCLE     0.05315                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+  SQUARE     0.05315                     0.000 NO     DARK 
+  SQUARE     0.06299                     0.000 NO     DARK 
+  SQUARE     0.06693                     0.000 NO     DARK 
+  SQUARE     0.17716                     0.000 NO     DARK 
+  RECTANGLE  0.01102     x 0.03347       0.000 NO     DARK 
+  RECTANGLE  0.01102     x 0.03347      90.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02244       0.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02244      90.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02441       0.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02441      90.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.00984       0.000 NO     DARK 
+  RECTANGLE  0.03400     x 0.01200       0.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.04134     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03543      90.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.02165       0.000 NO     DARK 
+  RECTANGLE  0.06102     x 0.03347      90.000 NO     DARK 
+  RECTANGLE  0.06102     x 0.05118       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.04921       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.04921      90.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.05906      90.000 NO     DARK 
+  RECTANGLE  0.09055     x 0.10630       0.000 NO     DARK 
+  OBLONG     0.04724     x 0.02165       0.000 NO     DARK 
+  PAD SHAPE  SIM800LSMALL              180.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < GND >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/GND.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00700                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.04331                                  DARK 
+  CIRCLE     0.05315                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+
+     GND created.
+
+
+================================================================
+     PROCESSING FILM < POWER >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/POWER.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00700                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.04331                                  DARK 
+  CIRCLE     0.05315                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+
+     POWER created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: Segment with same start and end points at
+	(-551.000 245.000) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-306.343 -111.598) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(267.369 131.000) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(439.902 -32.571) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00700                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.04331                                  DARK 
+  CIRCLE     0.05315                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+  SQUARE     0.05315                     0.000 NO     DARK 
+  SQUARE     0.06299                     0.000 NO     DARK 
+  RECTANGLE  0.02480     x 0.01417      90.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02244       0.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02244      90.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02244     135.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02441       0.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02441      90.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02441     135.000 NO     DARK 
+  RECTANGLE  0.03740     x 0.01772       0.000 NO     DARK 
+  RECTANGLE  0.03740     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.04921       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.04921      90.000 NO     DARK 
+  RECTANGLE  0.06890     x 0.01772      90.000 NO     DARK 
+  RECTANGLE  0.08268     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.08858     x 0.04724      90.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: text composed 0 width line found at (-1331.000 281.000)
+           ... using undefined line width of 6.000
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00984                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+
+     SILKSCREEN_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00984                                  DARK 
+
+     SILKSCREEN_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05118                                  DARK 
+  CIRCLE     0.06102                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  SQUARE     0.00100                     0.000 NO     DARK 
+  SQUARE     0.06102                     0.000 NO     DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+  RECTANGLE  0.01102     x 0.03347       0.000 NO     DARK 
+  RECTANGLE  0.01102     x 0.03347      90.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03032       0.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03032      90.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03228       0.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03228      90.000 NO     DARK 
+  RECTANGLE  0.03347     x 0.01968       0.000 NO     DARK 
+  RECTANGLE  0.03400     x 0.01200       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.04921     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.02953       0.000 NO     DARK 
+  RECTANGLE  0.06890     x 0.04134      90.000 NO     DARK 
+  RECTANGLE  0.06890     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.07087     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.07087     x 0.05709      90.000 NO     DARK 
+  RECTANGLE  0.08661     x 0.06693       0.000 NO     DARK 
+  RECTANGLE  0.08661     x 0.06693      90.000 NO     DARK 
+  RECTANGLE  0.09449     x 0.11024       0.000 NO     DARK 
+  OBLONG     0.05512     x 0.02953       0.000 NO     DARK 
+  PAD SHAPE  SIM800LBIG                180.000 NO     DARK 
+
+     SOLDERMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05118                                  DARK 
+  CIRCLE     0.06102                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  SQUARE     0.06102                     0.000 NO     DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+  RECTANGLE  0.03268     x 0.02205      90.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03032       0.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03032      90.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03032     135.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03228       0.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03228      90.000 NO     DARK 
+  RECTANGLE  0.03307     x 0.03228     135.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.02559       0.000 NO     DARK 
+  RECTANGLE  0.04528     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.01968       0.000 NO     DARK 
+  RECTANGLE  0.07087     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.07087     x 0.05709      90.000 NO     DARK 
+  RECTANGLE  0.07677     x 0.02559      90.000 NO     DARK 
+  RECTANGLE  0.08858     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.09055     x 0.04528      90.000 NO     DARK 
+
+     SOLDERMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_TOP >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/PASTEMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  SQUARE     0.00100                     0.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02244       0.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02244      90.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02441       0.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02441      90.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.00984       0.000 NO     DARK 
+  RECTANGLE  0.03400     x 0.01200       0.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.04134     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03543      90.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.02165       0.000 NO     DARK 
+  RECTANGLE  0.06102     x 0.03347      90.000 NO     DARK 
+  RECTANGLE  0.06102     x 0.05118       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.04921       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.04921      90.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.05906      90.000 NO     DARK 
+  RECTANGLE  0.09055     x 0.10630       0.000 NO     DARK 
+  OBLONG     0.04724     x 0.02165       0.000 NO     DARK 
+  PAD SHAPE  SIM800LSMALL              180.000 NO     DARK 
+
+     PASTEMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_BOTTOM >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/PASTEMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.02400                                  DARK 
+  RECTANGLE  0.02480     x 0.01417      90.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02244       0.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02244      90.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02244     135.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02441       0.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02441      90.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.02441     135.000 NO     DARK 
+  RECTANGLE  0.03740     x 0.01772       0.000 NO     DARK 
+  RECTANGLE  0.03740     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.04921       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.04921      90.000 NO     DARK 
+  RECTANGLE  0.06890     x 0.01772      90.000 NO     DARK 
+  RECTANGLE  0.08268     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.09646     x 0.05512      90.000 NO     DARK 
+
+     PASTEMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: 0 width line found at (-1377.953 551.181)
+           ... using undefined line width of 6.000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     OUTLINE created with warnings
+
+
+================================================================
+     PROCESSING FILM < DRILL_DRAWIMG >
+     TO FILE < C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/DRILL_DRAWIMG.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     DRILL_DRAWIMG created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        GND created.
+        POWER created.
+        BOTTOM created with warnings
+        SILKSCREEN_TOP created with warnings
+        SILKSCREEN_BOTTOM created.
+        SOLDERMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
+        PASTEMASK_TOP created.
+        PASTEMASK_BOTTOM created.
+        OUTLINE created with warnings
+        DRILL_DRAWIMG created with warnings
+
+ ARTWORK finished

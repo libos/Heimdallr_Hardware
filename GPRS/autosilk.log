@@ -1,0 +1,68 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : GPRS.brd                                      )
+(    Software Version : 16.3p006                                      )
+(    Date/Time        : Wed Apr 02 00:53:42 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for both sides of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.000
+Max Text displacement is 100.000
+Min Line Length is 0.000
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : None
+ Device Type          : None
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : None
+ User Part Number     : None
+
+
+     ----- Top Silkscreen -----
+
+Text string 'TP1' is not at a suitable location
+(location: 100.000, -189.472)
+Text string 'R5' is not at a suitable location
+(location: 433.000, 331.528)
+Text string 'R4' is not at a suitable location
+(location: 341.000, 134.528)
+Text string 'R15' is not at a suitable location
+(location: -330.000, -219.472)
+Text string 'R14' is not at a suitable location
+(location: 109.000, -307.528)
+Text string 'R13' is not at a suitable location
+(location: 140.472, -373.000)
+Text string 'R11' is not at a suitable location
+(location: 435.000, 151.528)
+Text string 'LED1' is not at a suitable location
+(location: 341.000, 172.528)
+Text string 'C9' is not at a suitable location
+(location: 348.000, 215.528)
+Text string 'C6' is not at a suitable location
+(location: 435.000, 279.528)
+Text string 'C10' is not at a suitable location
+(location: 435.000, 191.528)
+Text string 'C5' is not at a suitable location
+(location: -27.000, -212.472)
+
+     ----- Bottom Silkscreen -----
+
+Text string 'L1' is not at a suitable location
+(location: 389.000, 359.472)
+Text string 'U3' is not at a suitable location
+(location: -224.000, 46.528)
+
+Total Failures: 14
+
+Log End
+

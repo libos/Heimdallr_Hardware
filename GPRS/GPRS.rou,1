@@ -1,0 +1,11 @@
+;EXTENTS: -1.575  -1.575  1.575   1.575   
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : GPRS.rou for board GPRS.brd
+%
+G90
+F1
+M16
+G40
+M30

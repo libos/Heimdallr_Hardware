@@ -1,0 +1,315 @@
+(ExpressProject "SmartRing"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\newlib\lib\library3.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\smartring.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File "C:\Users\Liber\Desktop\SmartRing-V1.03\dcr.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "TRUE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "FALSE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "TRUE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "E:\MYDESIGNER\SMARTRING\SCH\SMARTRING\SMARTRING.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "E:\MYDESIGNER\SMARTRING\SCH\SMARTRING\SMARTRING.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro3")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File"
+       "C:\Users\Liber\Desktop\SmartRing-V1.02\PCB\SmartRing.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Configuration File"
+       "C:\Cadence\SPB_16.3\tools\capture\allegro.cfg")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Input Board File"
+       "C:\Users\Liber\Desktop\SmartRing-V1.02\PCB\SmartRing.brd")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs"
+    (File ".\smartring.drc"
+      (Type "Report"))
+    (File ".\smartring.bom"
+      (Type "Report"))
+    (File ".\dcr.drc"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File "d:\cadence\spb_16.3\tools\capture\library\drc.drc"
+      (Type "Report"))
+    (File ".\allegro2\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro2\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro2\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\allegro3\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro3\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro3\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "E:\MYDESIGNER\DESIGNERHELP\CADENCE\MYLIB_ZX\MYLIB_ZX.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MPU6500
+      (FullPartName "MPU6500.Normal")
+      (LibraryName "C:\USERS\LIBER\DESKTOP\NEWLIB\LIB\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (MPU6000
+      (FullPartName "MPU6000.Normal")
+      (LibraryName "C:\CADENCE\MYLIB_ZX\MYLIB_ZX.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 3"
+      (FullPartName "HEADER 3.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MX25U1635EZUI-10G
+      (FullPartName "MX25U1635EZUI-10G.Normal")
+      (LibraryName "C:\USERS\LIBER\DESKTOP\NEWLIB\LIB\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (D
+      (FullPartName "D.Normal")
+      (LibraryName "C:\CADENCE\MYLIB_ZX\MYLIB_ZX.OLB")
+      (DeviceIndex "0"))
+    (W25QXXDWZPIG
+      (FullPartName "W25QXXDWZPIG.Normal")
+      (LibraryName "C:\USERS\LIBER\DESKTOP\NEWLIB\LIB\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4"
+      (FullPartName "HEADER 4.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5"
+      (FullPartName "HEADER 5.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 8"
+      (FullPartName "HEADER 8.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("J 1x5"
+      (FullPartName "J 1x5.Normal")
+      (LibraryName "C:\CADENCE\MYLIB_ZX\MYLIB_ZX.OLB")
+      (DeviceIndex "0"))
+    (TMP006
+      (FullPartName "TMP006.Normal")
+      (LibraryName "C:\USERS\LIBER\DESKTOP\NEWLIB\LIB\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LIS3DH
+      (FullPartName "LIS3DH.Normal")
+      (LibraryName "C:\USERS\LIBER\DESKTOP\NEWLIB\LIB\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (SHT25
+      (FullPartName "SHT25.Normal")
+      (LibraryName "C:\USERS\LIBER\DESKTOP\NEWLIB\LIB\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (TPS62730
+      (FullPartName "TPS62730.Normal")
+      (LibraryName "C:\USERS\LIBER\DESKTOP\NEWLIB\LIB\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (TPS62730_DRY_6
+      (FullPartName "TPS62730_DRY_6.Normal")
+      (LibraryName "C:\USERS\LIBER\DESKTOP\NEWLIB\LIB\2014-03-18_20-55-42.OLB")
+      (DeviceIndex "0"))
+    (CAP-POL
+      (FullPartName "CAP-POL.Normal")
+      (LibraryName "E:\MYDESIGNER\ALLEGROLIB\MYLIB_ZX\MYLIB_ZX.OLB")
+      (DeviceIndex "0"))
+    (BEAD
+      (FullPartName "BEAD.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (LED
+    (FullPartName "LED.Normal")
+    (LibraryName "E:\MYDESIGNER\DESIGNERHELP\CADENCE\MYLIB_ZX\MYLIB_ZX.OLB")
+    (DeviceIndex "0"))
+  (SMF05C
+    (FullPartName "SMF05C.Normal")
+    (LibraryName "E:\MYDESIGNER\ALLEGROLIB\MYLIB_ZX\MYLIB_ZX.OLB")
+    (DeviceIndex "0"))
+  (PORTBOTH-L
+    (LibraryName "D:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (SIM_Card
+    (FullPartName "SIM_Card.Normal")
+    (LibraryName "E:\MYDESIGNER\ALLEGROLIB\MYLIB_ZX\MYLIB_ZX.OLB")
+    (DeviceIndex "0"))
+  (CAP-NP
+    (FullPartName "CAP-NP.Normal")
+    (LibraryName "E:\MYDESIGNER\ALLEGROLIB\MYLIB_ZX\MYLIB_ZX.OLB")
+    (DeviceIndex "0"))
+  (D_ZENER
+    (FullPartName "D_ZENER.Normal")
+    (LibraryName "E:\MYDESIGNER\ALLEGROLIB\MYLIB_ZX\MYLIB_ZX.OLB")
+    (DeviceIndex "0"))
+  (CAP-POL
+    (FullPartName "CAP-POL.Normal")
+    (LibraryName "E:\MYDESIGNER\ALLEGROLIB\MYLIB_ZX\MYLIB_ZX.OLB")
+    (DeviceIndex "0"))
+  (NPN
+    (FullPartName "NPN.Normal")
+    (LibraryName "E:\MYDESIGNER\ALLEGROLIB\MYLIB_ZX\MYLIB_ZX.OLB")
+    (DeviceIndex "0"))
+  (Switch_1
+    (FullPartName "Switch_1.Normal")
+    (LibraryName "E:\MYDESIGNER\ALLEGROLIB\MYLIB_ZX\MYLIB_ZX.OLB")
+    (DeviceIndex "0"))
+  (MPSSessionName "Liber")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\newlib\lib\library3.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\smartring.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 416"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1715 75 494")
+        (Scroll "-207 437")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\LIBER\DESKTOP\SMARTRING-V1.03\SMARTRING.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CC2541"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1740 100 519")
+        (Scroll "-207 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\LIBER\DESKTOP\SMARTRING-V1.03\SMARTRING.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1765 125 544")
+        (Scroll "-216 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\LIBER\DESKTOP\SMARTRING-V1.03\SMARTRING.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "FLASH"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 150 1790 150 569")
+        (Scroll "717 1868")
+        (Zoom "280")
+        (Occurrence "/"))
+      (Path "C:\USERS\LIBER\DESKTOP\SMARTRING-V1.03\SMARTRING.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Sensors")))
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_16.3\tools\capture\library"))

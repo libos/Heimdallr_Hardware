@@ -1,0 +1,16 @@
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/Liber/Desktop/SmartRing-V1.03/version2/MainBoard.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Wed Mar 26 23:31:37 2014        HOST: LIBER-PC
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----       147 22561984    0   0%    0   64    24.0  0:07:48  0:07:48
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/Liber/Desktop/SmartRing-V1.03/version2/MainBoard.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Wed Mar 26 23:31:42 2014        HOST: LIBER-PC
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----       147    0    0 100%    0   64    24.0  0:07:53  0:07:53

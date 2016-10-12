@@ -1,0 +1,226 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : MainBoard.brd                                 )
+(    Software Version : 16.3p006                                      )
+(    Date/Time        : Wed Mar 26 23:01:50 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for both sides of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.00
+Max Text displacement is 100.00
+Min Line Length is 0.00
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : Silkscreen
+ Device Type          : Silkscreen
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : Silkscreen
+ User Part Number     : Silkscreen
+
+
+     ----- Top Silkscreen -----
+
+Text string 'J6' is not at a suitable location
+(location: -105.65, -578.52)
+Text string 'HEADER 3_HEADER1X3_UART' is not at a suitable location
+(location: -105.65, -578.52)
+Text string 'C18' is not at a suitable location
+(location: -427.00, -25.47)
+Text string 'CAP POL_3216-18_CAP POL' is not at a suitable location
+(location: -427.00, -25.47)
+Text string 'U1' is not at a suitable location
+(location: -46.00, 24.00)
+Text string 'U3' is not at a suitable location
+(location: -132.00, 354.53)
+Text string 'LIS3DH_LIS3DH_LIS3DH' is not at a suitable location
+(location: -132.00, 354.53)
+Text string 'MX25U1635EZUI-10G_0_MX25U1635EZ' is not at a suitable location
+(location: -441.00, 132.53)
+Text string 'SHT25_0_SHT25_SHT25' is not at a suitable location
+(location: 63.00, -417.47)
+Text string 'BALUN_LFB182G45BG2D280_LFB182G4' is not at a suitable location
+(location: 264.53, 140.00)
+Text string 'U2' is not at a suitable location
+(location: -90.00, -266.00)
+Text string 'CRYSTAL_4PIN_US_FA-118T_32MHZ' is not at a suitable location
+(location: 179.00, 2.53)
+Text string 'CAP-NP_C0402_100NF' is not at a suitable location
+(location: -284.00, -190.47)
+Text string 'CAP-NP_C0402_2.2UF' is not at a suitable location
+(location: -363.00, -268.47)
+Text string 'C11' is not at a suitable location
+(location: -363.00, -190.47)
+Text string 'CAP-NP_C0402_200PF' is not at a suitable location
+(location: -363.00, -190.47)
+Text string 'CAP NP_C0402_2.2UF' is not at a suitable location
+(location: -197.00, -244.53)
+Text string 'C13' is not at a suitable location
+(location: -363.00, -229.47)
+Text string 'CAP-NP_C0402_1UF' is not at a suitable location
+(location: -363.00, -229.47)
+Text string 'C17' is not at a suitable location
+(location: -113.00, -346.47)
+Text string 'CAP NP_C0402_2.2UF' is not at a suitable location
+(location: -113.00, -346.47)
+Text string 'C16' is not at a suitable location
+(location: -114.00, -449.53)
+Text string 'CAP-POL_C0402_1210' is not at a suitable location
+(location: -114.00, -449.53)
+Text string 'CAP-NP_C0402_1UF' is not at a suitable location
+(location: -198.47, 184.00)
+Text string 'C19' is not at a suitable location
+(location: -285.00, -101.47)
+Text string 'CAP NP_C0402_CAP NP' is not at a suitable location
+(location: -285.00, -101.47)
+Text string 'C8' is not at a suitable location
+(location: -284.00, -229.47)
+Text string 'CAP-NP_C0402_100NF' is not at a suitable location
+(location: -284.00, -229.47)
+Text string 'CAP-NP_C0402_12PF' is not at a suitable location
+(location: 268.53, -19.00)
+Text string 'C5' is not at a suitable location
+(location: 178.00, 72.53)
+Text string 'CAP-NP_C0402_12PF' is not at a suitable location
+(location: 178.00, 72.53)
+Text string 'C4_GRM1555C1H1R2CZ01D1' is not at a suitable location
+(location: 273.47, 140.00)
+Text string 'CAP-NP_C0402_1.2PF' is not at a suitable location
+(location: 273.47, 140.00)
+Text string 'C6' is not at a suitable location
+(location: 62.00, -104.47)
+Text string 'CAP-NP_C0402_1NF' is not at a suitable location
+(location: 62.00, -104.47)
+Text string 'C7' is not at a suitable location
+(location: -284.00, -269.47)
+Text string 'CAP-NP_C0402_100NF' is not at a suitable location
+(location: -284.00, -269.47)
+Text string 'C20' is not at a suitable location
+(location: 18.00, -511.47)
+Text string 'CAP NP_C0402_10NF_25V_GRM155R71' is not at a suitable location
+(location: 18.00, -511.47)
+Text string 'C10' is not at a suitable location
+(location: -284.00, -151.47)
+Text string 'CAP-NP_C0402_100NF' is not at a suitable location
+(location: -284.00, -151.47)
+Text string 'C2' is not at a suitable location
+(location: 69.47, 291.00)
+Text string 'CAP-NP_C0402_22PF' is not at a suitable location
+(location: 69.47, 291.00)
+Text string 'C21' is not at a suitable location
+(location: 1.00, -304.47)
+Text string 'CAP-NP_C0402_100PF' is not at a suitable location
+(location: 1.00, -304.47)
+Text string 'C14' is not at a suitable location
+(location: -363.00, -151.47)
+Text string 'CAP-NP_C0402_100NF' is not at a suitable location
+(location: -363.00, -151.47)
+Text string 'CAP-NP_C0402_22PF' is not at a suitable location
+(location: 9.00, 365.53)
+Text string 'L1' is not at a suitable location
+(location: 379.53, 140.00)
+Text string 'L_L0402_? NH' is not at a suitable location
+(location: 379.53, 140.00)
+Text string 'L3' is not at a suitable location
+(location: -197.00, -284.53)
+Text string 'BEAD_L0402_LBEAD_BLM15HG102SN1D' is not at a suitable location
+(location: -197.00, -284.53)
+Text string 'L2' is not at a suitable location
+(location: -140.00, -357.53)
+Text string 'L_L0402_2.2UH' is not at a suitable location
+(location: -140.00, -357.53)
+Text string 'LED1' is not at a suitable location
+(location: -81.00, 497.53)
+Text string 'LED_LED0402_RED' is not at a suitable location
+(location: -81.00, 497.53)
+Text string 'R1' is not at a suitable location
+(location: -181.00, 496.53)
+Text string 'R_R0402_330R' is not at a suitable location
+(location: -181.00, 496.53)
+Text string 'R10' is not at a suitable location
+(location: 1.00, -325.53)
+Text string 'R_R0402_4.7K' is not at a suitable location
+(location: 1.00, -325.53)
+Text string 'R6' is not at a suitable location
+(location: 3.53, -184.00)
+Text string 'R_R0402_4.7K' is not at a suitable location
+(location: 3.53, -184.00)
+Text string 'R7' is not at a suitable location
+(location: -37.47, -184.00)
+Text string 'R_R0402_4.7K' is not at a suitable location
+(location: -37.47, -184.00)
+Text string 'R11' is not at a suitable location
+(location: 38.00, -285.53)
+Text string 'R_R0402_47K' is not at a suitable location
+(location: 38.00, -285.53)
+Text string 'R3' is not at a suitable location
+(location: -289.00, 96.47)
+Text string 'R_R0402_2K2' is not at a suitable location
+(location: -289.00, 96.47)
+Text string 'R4' is not at a suitable location
+(location: -289.00, 57.47)
+Text string 'R_R0402_2K2' is not at a suitable location
+(location: -289.00, 57.47)
+Text string 'R5' is not at a suitable location
+(location: 141.47, 190.00)
+Text string 'R_R0402_56K-1%' is not at a suitable location
+(location: 141.47, 190.00)
+Text string 'R8' is not at a suitable location
+(location: 62.00, -143.47)
+Text string 'R_R0402_2K7' is not at a suitable location
+(location: 62.00, -143.47)
+Text string 'R9' is not at a suitable location
+(location: 81.00, -309.47)
+Text string 'R_R0402_20K' is not at a suitable location
+(location: 81.00, -309.47)
+Text string 'A1' is not at a suitable location
+(location: 528.57, -285.77)
+Text string 'AN_SMD_1_ANSMD3216_AN_SMD' is not at a suitable location
+(location: 528.57, -285.77)
+Text string 'DIODE_LL60_1N60P_LL34' is not at a suitable location
+(location: -358.53, 301.00)
+Text string 'Y1' is not at a suitable location
+(location: 19.00, 302.53)
+Text string 'CRYSTAL_2PIN_Y_FC_12M_32.768KHZ' is not at a suitable location
+(location: 19.00, 302.53)
+Text string 'TP1' is not at a suitable location
+(location: 87.00, -542.47)
+Text string 'TP_TP1_TP' is not at a suitable location
+(location: 87.00, -542.47)
+Text string 'TP2' is not at a suitable location
+(location: 154.00, -543.47)
+Text string 'TP_TP1_TP' is not at a suitable location
+(location: 154.00, -543.47)
+Text string 'Q1' is not at a suitable location
+(location: 79.00, -269.47)
+Text string 'NPN_SOT923_MMBT3904SL-SOT-923' is not at a suitable location
+(location: 79.00, -269.47)
+Text string 'V2.0' is not at a suitable location
+(location: 126.00, 451.00)
+Text string 'MainBoard' is not at a suitable location
+(location: -200.00, 513.00)
+
+     ----- Bottom Silkscreen -----
+
+Text string 'J4' is not at a suitable location
+(location: 415.00, 328.53)
+Text string 'CC_DEBUGGER_HEADER_2X5_6_CC_DEB' is not at a suitable location
+(location: 415.00, 328.53)
+Text string 'HEADER 8_FPC_8PIN_0_5MM_SKINCLO' is not at a suitable location
+(location: 464.00, -16.53)
+Text string 'HEADER 7_FPC_7PIN_0_5MM_SIM800_' is not at a suitable location
+(location: 254.81, -396.94)
+
+Total Failures: 93
+
+Log End
+

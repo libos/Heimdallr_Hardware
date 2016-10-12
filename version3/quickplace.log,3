@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : MainBoard.brd                                 )
+(    Software Version : 16.3p006                                      )
+(    Date/Time        : Thu Apr 03 22:08:08 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on side Top
+
+         Placed symbol:  U6 / MPU6500_0_MPU6500_MPU6500 / MPU6500 at (-418.453 606.463)
+         Placed symbol:  C23 / CAP NP_C0402_0.1UF+-10%,4V / C0402 at (-287.193 540.321)
+         Placed symbol:  C24 / CAP NP_C0402_10NF+-10%,4V / C0402 at (-203.965 540.321)
+         Placed symbol:  C25 / CAP NP_C0402_0.1UF+-10%,2V / C0402 at (-120.737 540.321)
+         Placed symbol:  R11 / R_R0402_0R / R0402 at (-37.509 540.321)
+         Placed symbol:  R12 / R_R0402_0R / R0402 at (45.719 540.321)
+
+
+Placed 6 of 6 applicable (6 total) symbols.
+
+-----------------------------------------------------------------------
+

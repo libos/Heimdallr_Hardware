@@ -1,0 +1,93 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Netrev Allegro Import Logic                                      )
+(                                                                     )
+(    Drawing          : SmartRing.brd                                 )
+(    Software Version : 16.3p004                                      )
+(    Date/Time        : Thu Jan 23 19:32:54 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'c:\users\liber\desktop\smartring-v1.02\allegro';
+BOARD_DIRECTORY 'C:/Users/Liber/Desktop/SmartRing-V1.02/PCB';
+OLD_BOARD_NAME 'C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/SmartRing.brd';
+NEW_BOARD_NAME 'C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/SmartRing.brd';
+
+CmdLine: netrev.exe -5 -y 1 -i c:\users\liber\desktop\smartring-v1.02\allegro C:\Users\Liber\Desktop\SmartRing-V1.02\PCB\SmartRing.brd C:\Users\Liber\Desktop\SmartRing-V1.02\PCB\SmartRing.brd
+
+------ Preparing to read pst files ------
+
+Starting to read c:/users/liber/desktop/smartring-v1.02/allegro/pstchip.dat 
+   Finished reading c:/users/liber/desktop/smartring-v1.02/allegro/pstchip.dat (00:00:00.04)
+Starting to read c:/users/liber/desktop/smartring-v1.02/allegro/pstxprt.dat 
+   Finished reading c:/users/liber/desktop/smartring-v1.02/allegro/pstxprt.dat (00:00:00.00)
+Starting to read c:/users/liber/desktop/smartring-v1.02/allegro/pstxnet.dat 
+   Finished reading c:/users/liber/desktop/smartring-v1.02/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.3/share/local/pcb/modules 
+           C:\Users\Liber\Desktop\leds\lib\ 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+           C:\Users\Liber\Desktop\leds\lib\ 
+           C:\USERS\LIBER\DESKTOP\NEWLIB\lib\ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+           C:\Users\Liber\Desktop\leds\lib\ 
+           C:\USERS\LIBER\DESKTOP\NEWLIB\LIB\ 
+           C:\Users\Liber\Desktop\newLib\lib\VIA_12\ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jan 23 19:32:54 2014
+   DESIGN NAME : 'SMARTRING'
+   PACKAGING ON Nov 17 2009 03:09:43
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:34
+elapsed time  0:00:00
+

@@ -1,0 +1,23 @@
+{ Using PSTWRITER 16.3.0 p002Mar-26-2014 at 22:36:13 }
+
+#1 Warning [ALG0016] Part Name "BALUN_LFB182G45BG2D280_LFB182G45BG2D280_BALUN_LFB182G45BG2D280" is renamed to "BALUN_LFB182G45BG2D280_LFB182G4".
+#2 Warning [ALG0016] Part Name "CAP NP_C0402_10NF_25V_GRM155R71E103KA01D" is renamed to "CAP NP_C0402_10NF_25V_GRM155R71".
+#3 Warning [ALG0016] Part Name "HEADER 8_FPC_8PIN_0_5MM_SKINCLOSED_PORTS" is renamed to "HEADER 8_FPC_8PIN_0_5MM_SKINCLO".
+#4 Warning [ALG0016] Part Name "CC_DEBUGGER_HEADER_2X5_6_CC_DEBUGGER" is renamed to "CC_DEBUGGER_HEADER_2X5_6_CC_DEB".
+#5 Warning [ALG0016] Part Name "HEADER 7_FPC_7PIN_0_5MM_SIM800_PORTS" is renamed to "HEADER 7_FPC_7PIN_0_5MM_SIM800_".
+#6 Warning [ALG0016] Part Name "CC2541_RHA40_4P5X4P5_CC2541-VQFN" is renamed to "CC2541_RHA40_4P5X4P5_CC2541-VQF".
+#7 Warning [ALG0051] Pin "GND" is renamed to "GND#1" as visible power pin of same name already exists in Package CC2541 , U1: SCHEMATIC1, CC2541 (73.66, 60.96).
+#8 Warning [ALG0051] Pin "GND" is renamed to "GND#41" as visible power pin of same name already exists in Package CC2541 , U1: SCHEMATIC1, CC2541 (73.66, 60.96).
+#9 Warning [ALG0051] Pin "GND" is renamed to "GND#5" as visible power pin of same name already exists in Package LIS3DH , U3: SCHEMATIC1, Sensors (144.78, 43.18).
+#10 Warning [ALG0051] Pin "GND" is renamed to "GND#12" as visible power pin of same name already exists in Package LIS3DH , U3: SCHEMATIC1, Sensors (144.78, 43.18).
+#11 Warning [ALG0016] Part Name "MX25U1635EZUI-10G_0_MX25U1635EZUI_MX25U1635EZUI-10G" is renamed to "MX25U1635EZUI-10G_0_MX25U1635EZ".
+Scanning netlist files ...
+
+Loading... c:\users\liber\desktop\smartring-v1.03\allegro2/pstchip.dat
+
+Loading... c:\users\liber\desktop\smartring-v1.03\allegro2/pstchip.dat
+
+Loading... c:\users\liber\desktop\smartring-v1.03\allegro2/pstxprt.dat
+
+Loading... c:\users\liber\desktop\smartring-v1.03\allegro2/pstxnet.dat
+packaging the design view...

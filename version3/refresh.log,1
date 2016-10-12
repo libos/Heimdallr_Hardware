@@ -1,0 +1,103 @@
+Mon Mar 31 17:12:48 2014				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Mon Mar 31 17:12:48 2014
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : MainBoard.brd                                 )
+(    Software Version : 16.3p003                                      )
+(    Date/Time        : Mon Mar 31 17:12:48 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Mon Mar 31 17:12:48 2014				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+OLD_LAYOUT_NAME = 'C:/Users/Liber/Desktop/SmartRing-V1.03/version3/MainBoard.brd';
+NEW_LAYOUT_NAME = '';
+REFRESH_MECHANICAL_SYMBOLS = 'NO';
+REFRESH_FORMAT_SYMBOLS = 'NO';
+REFRESH_PACKAGE_SYMBOLS = 'YES';
+REFRESH_SHAPE_SYMBOLS = 'NO';
+REFRESH_SYMBOL_PAD_STACKS = 'NO';
+REFRESH_SYMBOL_TEXT_LOCATIONS = 'NO';
+REFRESH_CUSTOM_DRILL_DATA = 'NO';
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+           C:\Users\Liber\Desktop\leds\lib\ 
+           C:\USERS\LIBER\DESKTOP\NEWLIB\lib\ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+           C:\Users\Liber\Desktop\leds\lib\ 
+           C:\USERS\LIBER\DESKTOP\NEWLIB\LIB\ 
+           C:\Users\Liber\Desktop\newLib\lib\VIA_12\ 
+
+
+------ Symbol Refresh Messages ------
+
+'TP1'  symbol refreshed successfully.
+'FR05_S1_N_0_102'  symbol refreshed successfully.
+'Y_FC_12M'  symbol refreshed successfully.
+'NSVR0230P2'  symbol refreshed successfully.
+'CR2032'  symbol refreshed successfully.
+'R0402'  symbol refreshed successfully.
+'LED0402'  symbol refreshed successfully.
+'L0402'  symbol refreshed successfully.
+'C0402'  symbol refreshed successfully.
+'SOT923'  symbol refreshed successfully.
+'HEADER1X3'  symbol refreshed successfully.
+'FA-118T'  symbol refreshed successfully.
+'DRY6'  symbol refreshed successfully.
+'LFB182G45BG2D280'  symbol refreshed successfully.
+'SHT25'  symbol refreshed successfully.
+
+'FPC_7PIN_0_5MM'  symbol starting to refresh:
+     ERROR(SPMHNI-254): Unable to load symbol, 'FPC_7PIN_0_5MM': 'ERROR(SPMHDB-243): Cannot modify object ... FIXED property found~
+     .'.
+     
+'FPC_8PIN_0_5MM'  symbol refreshed successfully.
+'MX25U1635EZUI'  symbol refreshed successfully.
+'HEADER_2X5_6'  symbol refreshed successfully.
+'LIS3DH'  symbol refreshed successfully.
+
+'RHA40_4P5X4P5'  symbol starting to refresh:
+     ERROR(SPMHNI-254): Unable to load symbol, 'RHA40_4P5X4P5': 'ERROR(SPMHDB-243): Cannot modify object ... FIXED property found.~
+     '.
+     
+
+
+----- Symbol Update Summary ----
+
+Errors detected, due these errors this design was NOT updated.
+       2  errors detected.
+       0  warnings detected.

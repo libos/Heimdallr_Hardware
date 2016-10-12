@@ -1,0 +1,114 @@
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+    CC2541_SDA
+    BAT_ADC
+    DC_P0_7
+    MPU6500_CS
+    SCK
+    LIS3DH_INT1
+    LIS3DH_INT2
+    MISO
+    MOSI
+    SSN
+    MPU6500_INT
+    CC2541_SCL
+
+Reporting Globals
+    DGND
+    REG_VDD
+
+Checking Misleading Tap connection
+
+Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: SMARTRING 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+
+Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+
+Checking Name Property for Hierarchical Instances  
+
+Check High Speed Properties Syntax
+
+Check Power Ground Mismatch
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U3,GND GND  DGND
+                    SCHEMATIC1, POWER  (137.16, 116.84) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,GND GND  DGND
+                    SCHEMATIC1, CC2541  (114.30, 60.96) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? J4,GND GND  DGND
+                    SCHEMATIC1, CC2541  (223.52, 132.08) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,GND GND  DGND
+                    SCHEMATIC1, CC2541  (66.04, 73.66) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U4,GND GND  DGND
+                    SCHEMATIC1, Sensors  (139.70, 27.94) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, Sensors  (129.54, 152.40) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U5,GND GND  DGND
+                    SCHEMATIC1, Sensors  (116.84, 83.82) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U4,GND GND  DGND
+                    SCHEMATIC1, Sensors  (177.80, 27.94) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD5 AVDD5  REG_VDD
+                    SCHEMATIC1, CC2541  (129.54, 96.52) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD3 AVDD3  REG_VDD
+                    SCHEMATIC1, CC2541  (129.54, 88.90) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD2 AVDD2  REG_VDD
+                    SCHEMATIC1, CC2541  (129.54, 81.28) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD1 AVDD1  REG_VDD
+                    SCHEMATIC1, CC2541  (129.54, 78.74) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD4 AVDD4  REG_VDD
+                    SCHEMATIC1, CC2541  (129.54, 76.20) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD6 AVDD6  REG_VDD
+                    SCHEMATIC1, CC2541  (109.22, 53.34) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,DVDD2 DVDD2  REG_VDD
+                    SCHEMATIC1, CC2541  (66.04, 96.52) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,DVDD1 DVDD1  REG_VDD
+                    SCHEMATIC1, CC2541  (88.90, 53.34) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,VDD VDD  REG_VDD
+                    SCHEMATIC1, Sensors  (129.54, 165.10) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U4,Vdd_IO Vdd_IO  REG_VDD
+                    SCHEMATIC1, Sensors  (177.80, 17.78) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

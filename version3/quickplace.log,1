@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : MainBoard.brd                                 )
+(    Software Version : 16.3p006                                      )
+(    Date/Time        : Mon Mar 31 17:12:30 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on side Top
+
+         Placed symbol:  C21 / CAP POL_C0402_CAP POL / C0402 at (-466.485 540.321)
+         Placed symbol:  C22 / CAP NP_C0402_100NF_25V_GRM155R7 / C0402 at (-383.257 540.321)
+         Placed symbol:  C4 / CAP-NP_C0402_1.2PF_GRM1555C1H1R / C0402 at (-300.029 540.321)
+         Placed symbol:  C10 / CAP-NP_C0402_100NF / C0402 at (-216.801 540.321)
+         Placed symbol:  R5 / R_R0402_4.7K / R0402 at (-133.573 540.321)
+         Placed symbol:  R2 / R_R0402_2K2 / R0402 at (-50.345 540.321)
+
+
+Placed 6 of 6 applicable (6 total) symbols.
+
+-----------------------------------------------------------------------
+

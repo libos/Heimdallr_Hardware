@@ -1,0 +1,45 @@
+\t (00:00:00) allegro 16.3 p006 (v16-3-85F) i86
+\t (00:00:00) 
+
+\t (00:00:00) Opening existing drawing...
+\d (00:00:00) Database opened: C:/Users/Liber/Desktop/SmartRing-V1.03/PCB/SmartRing.brd
+\t (00:00:01) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (00:00:01) trapsize 10896
+\i (00:00:01) trapsize 10683
+\i (00:00:01) trapsize 10883
+\t (00:00:01) Grids are drawn 64.000, 64.000 apart for enhanced viewability.
+\i (00:00:01) trapsize 23537
+\i (00:00:01) generaledit 
+\i (00:00:12) setwindow form.mini
+\i (00:00:12) FORM mini class ETCH 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) color192 
+\i (00:00:19) setwindow cvf.dialog
+\i (00:00:19) cvf layer_mode
+\i (00:00:19) setwindow pcb
+\i (00:00:19) generaledit 
+\i (00:00:21) setwindow cvf.dialog
+\i (00:00:21) cvf layers_visible stack-up stack-up/all_row TRUE
+\i (00:00:23) cvf apply
+\i (00:00:26) cvf okay
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 731.517 125.690
+\t (00:00:27) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (00:00:27) trapsize 11769
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 731.517 125.690
+\i (00:00:27) trapsize 5884
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 731.517 125.691
+\t (00:00:27) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (00:00:27) trapsize 2942
+\i (00:00:31) pick grid 696.799 151.582
+\t (00:00:31) last pick:  697.000  152.000
+\i (00:00:31) prepopup 696.799 151.582
+\i (00:00:34) exit 
+\f (00:00:34) Do you want to save the changes you made to SmartRing.brd?
+\i (00:00:35) fillin no 

@@ -1,0 +1,155 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : GPRS.brd                                      )
+(    Software Version : 16.3p006                                      )
+(    Date/Time        : Tue Apr 01 13:19:53 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on side Top
+
+         Placed symbol:  U1 / SIM800L_SIM800L_SIM800L / SIM800L at (-133.020 852.526)
+         Placed symbol:  U4 / LTC3536_1_LTC3536_LTC3536 / LTC3536 at (331.705 590.715)
+WARNING: Could not place:  A1 / AN_SMD_0_ANSMD_RAINSUN_AN_SMD / ANSMD_RAINSUN; outside of drawing extents
+ERROR:   Cannot place symbol:  U3 / SMF05C_SMF05C_SMF05C / SMF05C
+         due to ERROR(SPMHA1-73): Text line is outside of the extents.
+         Placed symbol:  U2 / SIM_CARD_SIM8050_NANOSIM_SIM_CA / SIM8050_NANOSIM at (-95.460 1376.306)
+ERROR:   Cannot place symbol:  J1 / HEADER 6_FPC_6PIN_0_5MM_SIM800_ / FPC_6PIN_0_5MM
+         due to ERROR(SPMHA1-73): Text line is outside of the extents.
+WARNING: Could not place:  Q1 / NPN_S9013-SOT-23_S9013-SOT-523 / S9013-SOT-23; outside of drawing extents
+WARNING: Could not place:  C5 / CAP-POL_3216-18_100UF/6.3V / 3216-18; outside of drawing extents
+WARNING: Could not place:  C4 / CAP-NP_C0402_22PF / C0402; outside of drawing extents
+WARNING: Could not place:  C7 / CAP NP_C0402_100PF / C0402; outside of drawing extents
+WARNING: Could not place:  C3 / CAP-NP_C0402_1UF / C0402; outside of drawing extents
+WARNING: Could not place:  C6 / CAP NP_C0402_10UF / C0402; outside of drawing extents
+WARNING: Could not place:  C10 / CAP NP_C0402_1NF / C0402; outside of drawing extents
+WARNING: Could not place:  C8 / CAP NP_C0402_47UF / C0402; outside of drawing extents
+WARNING: Could not place:  L1 / L_XAL4040_153MEC_15UH_COILCRAFT / XAL4040_153MEC; outside of drawing extents
+WARNING: Could not place:  LED1 / LED_LED0402_GRE / LED0402; outside of drawing extents
+WARNING: Could not place:  C9 / CAP NP_C0402_100UF / C0402; outside of drawing extents
+WARNING: Could not place:  R1 / R_R0402_22R / R0402; outside of drawing extents
+WARNING: Could not place:  R2 / R_R0402_22R / R0402; outside of drawing extents
+WARNING: Could not place:  D1 / DIODE BI-DIR TRIG_PESD5V0S1BL_P / PESD5V0S1BL; outside of drawing extents
+WARNING: Could not place:  R8 / R_R0402_22R / R0402; outside of drawing extents
+WARNING: Could not place:  C2 / CAP-NP_C0402_27PF / C0402; outside of drawing extents
+WARNING: Could not place:  R10 / R_R0402_49.9K / R0402; outside of drawing extents
+WARNING: Could not place:  R11 / R_R0402_169K / R0402; outside of drawing extents
+WARNING: Could not place:  R12 / R_R0402_332K / R0402; outside of drawing extents
+WARNING: Could not place:  R13 / R_R0402_0R / R0402; outside of drawing extents
+WARNING: Could not place:  R14 / R_R0402_0R / R0402; outside of drawing extents
+WARNING: Could not place:  R15 / R_R0402_4.7K / R0402; outside of drawing extents
+WARNING: Could not place:  R16 / R_R0402_47K / R0402; outside of drawing extents
+WARNING: Could not place:  R3 / R_R0402_47NH / R0402; outside of drawing extents
+WARNING: Could not place:  R4 / R_R0402_330R / R0402; outside of drawing extents
+WARNING: Could not place:  R5 / R_R0402_15K / R0402; outside of drawing extents
+WARNING: Could not place:  R6 / R_R0402_845K / R0402; outside of drawing extents
+WARNING: Could not place:  SW1 / SWITCH_1_SWITCH_2FOOT_SWITCH_1 / SWITCH_2FOOT; outside of drawing extents
+WARNING: Could not place:  R9 / R_R0402_22R / R0402; outside of drawing extents
+WARNING: Could not place:  C1 / CAP-NP_C0402_27PF / C0402; outside of drawing extents
+WARNING: Could not place:  R7 / R_R0402_22R / R0402; outside of drawing extents
+WARNING: Could not place:  TP1 / TP_TP1_TP / TP1; outside of drawing extents
+
+
+Placed 3 of 38 applicable (38 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on side Top
+
+WARNING: Could not place:  A1 / AN_SMD_0_ANSMD_RAINSUN_AN_SMD / ANSMD_RAINSUN; outside of drawing extents
+WARNING: Could not place:  U3 / SMF05C_SMF05C_SMF05C / SMF05C; outside of drawing extents
+WARNING: Could not place:  J1 / HEADER 6_FPC_6PIN_0_5MM_SIM800_ / FPC_6PIN_0_5MM; outside of drawing extents
+WARNING: Could not place:  Q1 / NPN_S9013-SOT-23_S9013-SOT-523 / S9013-SOT-23; outside of drawing extents
+WARNING: Could not place:  C10 / CAP NP_C0402_1NF / C0402; outside of drawing extents
+WARNING: Could not place:  C3 / CAP-NP_C0402_1UF / C0402; outside of drawing extents
+WARNING: Could not place:  C4 / CAP-NP_C0402_22PF / C0402; outside of drawing extents
+WARNING: Could not place:  C6 / CAP NP_C0402_10UF / C0402; outside of drawing extents
+WARNING: Could not place:  C2 / CAP-NP_C0402_27PF / C0402; outside of drawing extents
+WARNING: Could not place:  C5 / CAP-POL_3216-18_100UF/6.3V / 3216-18; outside of drawing extents
+WARNING: Could not place:  C9 / CAP NP_C0402_100UF / C0402; outside of drawing extents
+WARNING: Could not place:  D1 / DIODE BI-DIR TRIG_PESD5V0S1BL_P / PESD5V0S1BL; outside of drawing extents
+WARNING: Could not place:  C7 / CAP NP_C0402_100PF / C0402; outside of drawing extents
+WARNING: Could not place:  L1 / L_XAL4040_153MEC_15UH_COILCRAFT / XAL4040_153MEC; outside of drawing extents
+WARNING: Could not place:  LED1 / LED_LED0402_GRE / LED0402; outside of drawing extents
+WARNING: Could not place:  C8 / CAP NP_C0402_47UF / C0402; outside of drawing extents
+WARNING: Could not place:  R1 / R_R0402_22R / R0402; outside of drawing extents
+WARNING: Could not place:  R7 / R_R0402_22R / R0402; outside of drawing extents
+WARNING: Could not place:  R2 / R_R0402_22R / R0402; outside of drawing extents
+WARNING: Could not place:  R8 / R_R0402_22R / R0402; outside of drawing extents
+WARNING: Could not place:  R9 / R_R0402_22R / R0402; outside of drawing extents
+WARNING: Could not place:  R10 / R_R0402_49.9K / R0402; outside of drawing extents
+WARNING: Could not place:  R11 / R_R0402_169K / R0402; outside of drawing extents
+WARNING: Could not place:  R12 / R_R0402_332K / R0402; outside of drawing extents
+WARNING: Could not place:  R13 / R_R0402_0R / R0402; outside of drawing extents
+WARNING: Could not place:  R14 / R_R0402_0R / R0402; outside of drawing extents
+WARNING: Could not place:  R15 / R_R0402_4.7K / R0402; outside of drawing extents
+WARNING: Could not place:  R16 / R_R0402_47K / R0402; outside of drawing extents
+WARNING: Could not place:  R3 / R_R0402_47NH / R0402; outside of drawing extents
+WARNING: Could not place:  R4 / R_R0402_330R / R0402; outside of drawing extents
+WARNING: Could not place:  R5 / R_R0402_15K / R0402; outside of drawing extents
+WARNING: Could not place:  R6 / R_R0402_845K / R0402; outside of drawing extents
+WARNING: Could not place:  SW1 / SWITCH_1_SWITCH_2FOOT_SWITCH_1 / SWITCH_2FOOT; outside of drawing extents
+WARNING: Could not place:  C1 / CAP-NP_C0402_27PF / C0402; outside of drawing extents
+WARNING: Could not place:  TP1 / TP_TP1_TP / TP1; outside of drawing extents
+
+
+Placed 0 of 35 applicable (35 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on side Top
+
+         Placed symbol:  A1 / AN_SMD_0_ANSMD_RAINSUN_AN_SMD / ANSMD_RAINSUN at (680.579 196.699)
+         Placed symbol:  U3 / SMF05C_SMF05C_SMF05C / SMF05C at (588.060 -169.600)
+         Placed symbol:  J1 / HEADER 6_FPC_6PIN_0_5MM_SIM800_ / FPC_6PIN_0_5MM at (651.052 -396.135)
+         Placed symbol:  Q1 / NPN_S9013-SOT-23_S9013-SOT-523 / S9013-SOT-23 at (-426.327 -707.638)
+         Placed symbol:  C10 / CAP NP_C0402_1NF / C0402 at (559.713 -571.639)
+         Placed symbol:  C3 / CAP-NP_C0402_1UF / C0402 at (-302.941 -657.244)
+         Placed symbol:  C4 / CAP-NP_C0402_22PF / C0402 at (-219.713 -657.244)
+         Placed symbol:  C6 / CAP NP_C0402_10UF / C0402 at (-136.485 -657.244)
+         Placed symbol:  C2 / CAP-NP_C0402_27PF / C0402 at (-53.257 -657.244)
+         Placed symbol:  C5 / CAP-POL_3216-18_100UF/6.3V / 3216-18 at (89.814 -680.079)
+         Placed symbol:  C9 / CAP NP_C0402_100UF / C0402 at (232.885 -657.244)
+         Placed symbol:  D1 / DIODE BI-DIR TRIG_PESD5V0S1BL_P / PESD5V0S1BL at (305.877 -657.244)
+         Placed symbol:  C7 / CAP NP_C0402_100PF / C0402 at (378.869 -657.244)
+ERROR:   Cannot place symbol:  L1 / L_XAL4040_153MEC_15UH_COILCRAFT / XAL4040_153MEC
+         due to ERROR(SPMHA1-73): Text line is outside of the extents.
+         Placed symbol:  LED1 / LED_LED0402_GRE / LED0402 at (884.279 296.147)
+         Placed symbol:  C8 / CAP NP_C0402_47UF / C0402 at (884.673 249.139)
+         Placed symbol:  R1 / R_R0402_22R / R0402 at (884.673 202.131)
+         Placed symbol:  R7 / R_R0402_22R / R0402 at (884.673 155.123)
+         Placed symbol:  R2 / R_R0402_22R / R0402 at (884.673 108.115)
+         Placed symbol:  R8 / R_R0402_22R / R0402 at (884.673 61.107)
+         Placed symbol:  R9 / R_R0402_22R / R0402 at (884.673 14.099)
+         Placed symbol:  R10 / R_R0402_49.9K / R0402 at (884.673 -32.909)
+         Placed symbol:  R11 / R_R0402_169K / R0402 at (884.673 -79.917)
+         Placed symbol:  R12 / R_R0402_332K / R0402 at (884.673 -126.925)
+         Placed symbol:  R13 / R_R0402_0R / R0402 at (884.673 -173.933)
+         Placed symbol:  R14 / R_R0402_0R / R0402 at (884.673 -220.941)
+         Placed symbol:  R15 / R_R0402_4.7K / R0402 at (884.673 -267.949)
+         Placed symbol:  R16 / R_R0402_47K / R0402 at (884.673 -314.957)
+         Placed symbol:  R3 / R_R0402_47NH / R0402 at (884.673 -361.965)
+         Placed symbol:  R4 / R_R0402_330R / R0402 at (884.673 -408.973)
+         Placed symbol:  R5 / R_R0402_15K / R0402 at (884.673 -455.981)
+         Placed symbol:  R6 / R_R0402_845K / R0402 at (884.673 -502.989)
+         Placed symbol:  SW1 / SWITCH_1_SWITCH_2FOOT_SWITCH_1 / SWITCH_2FOOT at (-318.060 -867.245)
+         Placed symbol:  C1 / CAP-NP_C0402_27PF / C0402 at (884.673 -549.997)
+         Placed symbol:  TP1 / TP_TP1_TP / TP1 at (-97.430 -812.127)
+
+
+Placed 34 of 35 applicable (35 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on side Top
+
+         Placed symbol:  L1 / L_XAL4040_153MEC_15UH_COILCRAFT / XAL4040_153MEC at (26.744 -875.119)
+
+
+Placed 1 of 1 applicable (1 total) symbols.
+
+-----------------------------------------------------------------------
+

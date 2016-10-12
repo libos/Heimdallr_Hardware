@@ -1,0 +1,33 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/SmartRing.brd*
+G04 Film Name:    OUTLINE*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 16.3-p003*
+G04 Origin Date:  Mon Feb 10 17:13:57 2014*
+G04 *
+G04 Layer:  BOARD GEOMETRY/OUTLINE*
+G04 *
+G04 Offset:    (0.000 0.000)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     6.000*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX55Y55*MOIN*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.006*%
+G75*
+%LPD*%
+G75*
+G54D10*
+G01X-137795Y55118D02*
+X200787D01*
+G02X204724Y51181I0J-3937D01*
+G01Y-51181D01*
+G02X200787Y-55118I-3937J0D01*
+G01X-137795D01*
+G02X-141732Y-51181I0J3937D01*
+G01Y51181D01*
+G02X-137795Y55118I3937J0D01*
+M02*

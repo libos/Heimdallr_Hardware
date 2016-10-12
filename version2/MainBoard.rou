@@ -1,0 +1,11 @@
+;EXTENTS: -4.000  -4.000  4.000   4.000   
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : MainBoard.rou for board MainBoard.brd
+%
+G90
+F1
+M16
+G40
+M30

@@ -1,0 +1,658 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2006 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Fri Jan 24 21:33:46 2014
+# 
+# Allegro PCB Router v16-3-85 made 2009/11/03 at 11:55:32
+# Running on: liber-pc, OS Version: WindowsNT 6.1.7601, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/specctra.did
+# Current time = Fri Jan 24 21:33:47 2014
+# PCB C:/Users/Liber/Desktop/SmartRing-V1.02/PCB
+# Master Unit set up as: MIL 10000
+# PCB Limits xlo=-1568.5510 ylo=-637.4170 xhi=2198.4720 yhi=584.2990
+# Total 94 Images Consolidated.
+# Via C160H105M180T155_190_40 z=1, 2 xlo=-31.4960 ylo=-31.4960 xhi= 31.4960 yhi= 31.4960
+# Via VIA_12 z=1, 2 xlo=-12.0000 ylo=-12.0000 xhi= 12.0000 yhi= 12.0000
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------  VIA_12
+# BOTTOM  VIA_12  ------
+# 
+# <<WARNING:>> Net DGND is defined as a signal net and contains 100 pins.
+# This is more pins than most signal nets contain.
+# Please verify whether net DGND should be a signal net or a power net.
+# Note that a signal net will be routed as starburst or daisy chain.
+# Wires Processed 1, Vias Processed 1
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Layers Processed: Power Layers 2
+# Components Placed 117, Images Processed 144, Padstacks Processed 32
+# Nets Processed 95, Net Terminals 390
+# PCB Area=3638129.847  EIC=32  Area/EIC=113691.558  SMDs=102
+# Total Pin Count: 451
+# Signal Connections Created 295
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0010 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Nets 95 Connections 296 Unroutes 295
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 1, at vias 1 Total Vias 1
+# Percent Connected    0.00
+# Manhattan Length 115110.2110 Horizontal 89650.2137 Vertical 25459.9973
+# Routed Length  12.7330 Horizontal  11.4610 Vertical   3.0710
+# Ratio Actual / Manhattan   0.0001
+# Unconnected Length 115081.1470 Horizontal 83648.6646 Vertical 31432.4824
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:02
+# Loading Do File pasde.do ...
+# Loading Do File C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/Liber/AppData/Local/Temp/#Taaaaab33428.tmp ...
+# All Components Selected.
+# All Nets Selected.
+# Net DGND Unselected.
+# Net DVDD2V8 Unselected.
+set route_diagonal 4
+grid wire 0.001000 (direction x) (offset 0.000000)
+grid wire 0.001000 (direction y) (offset 0.000000)
+grid via 0.001000 (direction x) (offset 0.000000)
+grid via 0.001000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP orthogonal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM orthogonal
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 5 (direction In_out) (location Anywhere) (pin_type power) (pin_type signal)
+# Fanout in any direction.
+# Fanout inside and outside component outline.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Current time = Fri Jan 24 21:34:41 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------  VIA_12
+# BOTTOM  VIA_12  ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0010 with offset 0.0000
+# Layer TOP Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Nets 95 Connections 296 Unroutes 295
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 1, at vias 1 Total Vias 1
+# Percent Connected    0.00
+# Manhattan Length 115110.2110 Horizontal 89650.2137 Vertical 25459.9973
+# Routed Length  12.7330 Horizontal  11.4610 Vertical   3.0710
+# Ratio Actual / Manhattan   0.0001
+# Unconnected Length 115081.1470 Horizontal 83648.6646 Vertical 31432.4824
+# Start Fanout Pass 1 of 5
+# Attempts 333 Successes 259 Failures 74 Vias 259
+# 3 bend points have been removed.
+# Total Conflicts: 185 (Cross: 32, Clear: 153, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 5
+# Start Fanout Pass 2 of 5
+# Attempts 265 Successes 205 Failures 60 Vias 273
+# 12 bend points have been removed.
+# Total Conflicts: 143 (Cross: 24, Clear: 119, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 2 of 5
+# Start Fanout Pass 3 of 5
+# Attempts 202 Successes 102 Failures 100 Vias 233
+# 7 bend points have been removed.
+# Total Conflicts: 26 (Cross: 13, Clear: 13, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 3 of 5
+# Start Fanout Pass 4 of 5
+# Attempts 176 Successes 80 Failures 96 Vias 237
+# 5 bend points have been removed.
+# Total Conflicts: 31 (Cross: 15, Clear: 16, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 4 of 5
+# Start Fanout Pass 5 of 5
+# Attempts 140 Successes 26 Failures 114 Vias 219
+# 4 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 5 of 5
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Nets 95 Connections 296 Unroutes 295
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 81, at vias 81 Total Vias 219
+# Percent Connected    0.34
+# Manhattan Length 115110.2110 Horizontal 88666.6112 Vertical 26443.5998
+# Routed Length 19297.7610 Horizontal 9872.9870 Vertical 10153.7700
+# Ratio Actual / Manhattan   0.1676
+# Unconnected Length 124358.5430 Horizontal 86201.5920 Vertical 38156.9510
+route 25 1
+# Current time = Fri Jan 24 21:34:43 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------  VIA_12
+# BOTTOM  VIA_12  ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0010 with offset 0.0000
+# Layer TOP Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Nets 95 Connections 296 Unroutes 295
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 81, at vias 81 Total Vias 219
+# Percent Connected    0.34
+# Manhattan Length 115110.2110 Horizontal 88666.6112 Vertical 26443.5998
+# Routed Length 19297.7610 Horizontal 9872.9870 Vertical 10153.7700
+# Ratio Actual / Manhattan   0.1676
+# Unconnected Length 124358.5430 Horizontal 86201.5920 Vertical 38156.9510
+# Start Route Pass 1 of 25
+# Routing 161 wires.
+# 4 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 122 (Cross: 55, Clear: 67, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 187
+# Attempts 161 Successes 108 Failures 53 Vias 167
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 25
+# Start Route Pass 2 of 25
+# Routing 211 wires.
+# 7 bend points have been removed.
+# 9 bend points have been removed.
+# Total Conflicts: 354 (Cross: 147, Clear: 207, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 150
+# Attempts 200 Successes 180 Failures 20 Vias 159
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Conflict Reduction -1.9016
+# End Pass 2 of 25
+# Start Route Pass 3 of 25
+# Routing 272 wires.
+# 10 bend points have been removed.
+# 9 bend points have been removed.
+# Total Conflicts: 256 (Cross: 133, Clear: 123, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 131
+# Attempts 230 Successes 187 Failures 43 Vias 138
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Conflict Reduction  0.2768
+# End Pass 3 of 25
+# Start Route Pass 4 of 25
+# Routing 299 wires.
+# Total Conflicts: 221 (Cross: 90, Clear: 131, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 119
+# Attempts 240 Successes 202 Failures 38 Vias 135
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Conflict Reduction  0.1367
+# End Pass 4 of 25
+# Start Route Pass 5 of 25
+# Routing 322 wires.
+# <<WARNING:>> Net DGND redundant connection.
+# <<WARNING:>> Net DGND redundant connection.
+# 6 bend points have been removed.
+# 10 bend points have been removed.
+# Total Conflicts: 172 (Cross: 66, Clear: 106, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 118
+# Attempts 246 Successes 210 Failures 36 Vias 151
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# Conflict Reduction  0.2217
+# End Pass 5 of 25
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Start Route Pass 6 of 25
+# Routing 220 wires.
+# <<WARNING:>> Net DGND redundant connection.
+# <<WARNING:>> Net DGND redundant connection.
+# <<WARNING:>> Net DGND redundant connection.
+# 4 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 89 (Cross: 36, Clear: 53, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 119
+# Attempts 173 Successes 141 Failures 32 Vias 148
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 6 of 25
+# Start Route Pass 7 of 25
+# Routing 131 wires.
+# 1 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 76 (Cross: 27, Clear: 49, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 119
+# Attempts 124 Successes 88 Failures 36 Vias 150
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:00
+# End Pass 7 of 25
+# Start Route Pass 8 of 25
+# Routing 151 wires.
+# 0 bend points have been removed.
+# 5 bend points have been removed.
+# Total Conflicts: 102 (Cross: 35, Clear: 67, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 116
+# Attempts 137 Successes 103 Failures 34 Vias 158
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 8 of 25
+# Start Route Pass 9 of 25
+# Routing 128 wires.
+# 1 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 91 (Cross: 29, Clear: 62, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 116
+# Attempts 118 Successes 82 Failures 36 Vias 160
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 9 of 25
+# Start Route Pass 10 of 25
+# Routing 161 wires.
+# 8 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 81 (Cross: 28, Clear: 53, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 118
+# Attempts 141 Successes 107 Failures 34 Vias 162
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 10 of 25
+# Start Route Pass 11 of 25
+# Routing 119 wires.
+# 2 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 73 (Cross: 22, Clear: 51, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 116
+# Attempts 100 Successes 74 Failures 26 Vias 160
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 11 of 25
+# Start Route Pass 12 of 25
+# Routing 144 wires.
+# 2 bend points have been removed.
+# 7 bend points have been removed.
+# Total Conflicts: 73 (Cross: 20, Clear: 53, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 116
+# Attempts 118 Successes 89 Failures 29 Vias 159
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 12 of 25
+# Start Route Pass 13 of 25
+# Routing 104 wires.
+# 1 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 84 (Cross: 29, Clear: 55, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 116
+# Attempts 86 Successes 64 Failures 22 Vias 159
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 13 of 25
+# Start Route Pass 14 of 25
+# Routing 138 wires.
+# 1 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 87 (Cross: 30, Clear: 57, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 116
+# Attempts 111 Successes 80 Failures 31 Vias 167
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 14 of 25
+# Start Route Pass 15 of 25
+# Routing 110 wires.
+# 5 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 86 (Cross: 29, Clear: 57, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 116
+# Attempts 86 Successes 61 Failures 25 Vias 163
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 15 of 25
+# Start Route Pass 16 of 25
+# Routing 140 wires.
+# 1 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 79 (Cross: 23, Clear: 56, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 116
+# Attempts 109 Successes 88 Failures 21 Vias 163
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 16 of 25
+# Start Route Pass 17 of 25
+# Routing 103 wires.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 64 (Cross: 17, Clear: 47, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 117
+# Attempts 80 Successes 54 Failures 26 Vias 166
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 17 of 25
+# Start Route Pass 18 of 25
+# Routing 121 wires.
+# 1 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 62 (Cross: 17, Clear: 45, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 117
+# Attempts 99 Successes 78 Failures 21 Vias 162
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 18 of 25
+# Start Route Pass 19 of 25
+# Routing 86 wires.
+# 1 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 62 (Cross: 17, Clear: 45, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 117
+# Attempts 70 Successes 44 Failures 26 Vias 162
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 19 of 25
+# Start Route Pass 20 of 25
+# Routing 120 wires.
+# 3 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 101 (Cross: 22, Clear: 79, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 113
+# Attempts 114 Successes 83 Failures 31 Vias 170
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 20 of 25
+# Start Route Pass 21 of 25
+# Routing 104 wires.
+# 0 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 71 (Cross: 19, Clear: 52, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 116
+# Attempts 95 Successes 60 Failures 35 Vias 163
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 21 of 25
+# Start Route Pass 22 of 25
+# Routing 133 wires.
+# 5 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 73 (Cross: 20, Clear: 53, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 116
+# Attempts 120 Successes 76 Failures 44 Vias 165
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 22 of 25
+# Start Route Pass 23 of 25
+# Routing 98 wires.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 84 (Cross: 17, Clear: 67, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 114
+# Attempts 91 Successes 57 Failures 34 Vias 170
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 23 of 25
+# Start Route Pass 24 of 25
+# Routing 133 wires.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 72 (Cross: 22, Clear: 50, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 115
+# Attempts 118 Successes 78 Failures 40 Vias 164
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 24 of 25
+# Start Route Pass 25 of 25
+# Routing 98 wires.
+# 3 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 73 (Cross: 23, Clear: 50, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 115
+# Attempts 93 Successes 60 Failures 33 Vias 163
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:01
+# End Pass 25 of 25
+# Cpu Time = 0:00:44  Elapsed Time = 0:00:28
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0010 with offset 0.0000
+# Layer TOP Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Fanout   |  1|    32|   153|  74|  295|  259|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  2|    24|   119|  60|  295|  273|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  3|    13|    13| 100|  295|  233|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  4|    15|    16|  96|  295|  237|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  5|     0|     0| 114|  295|  219|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  6|    55|    67|  53|  187|  167|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  7|   147|   207|  20|  150|  159|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  8|   133|   123|  43|  131|  138|    0|   0| 27|  0:00:01|  0:00:02|
+# Route    |  9|    90|   131|  38|  119|  135|    0|   0| 13|  0:00:01|  0:00:03|
+# Route    | 10|    66|   106|  36|  118|  151|    0|   0| 22|  0:00:02|  0:00:05|
+# Route    | 11|    36|    53|  32|  119|  148|    0|   0| 48|  0:00:02|  0:00:07|
+# Route    | 12|    27|    49|  36|  119|  150|    0|   0| 14|  0:00:02|  0:00:09|
+# Route    | 13|    35|    67|  34|  116|  158|    0|   0|  0|  0:00:02|  0:00:11|
+# Route    | 14|    29|    62|  36|  116|  160|    0|   0| 10|  0:00:02|  0:00:13|
+# Route    | 15|    28|    53|  34|  118|  162|    0|   0| 10|  0:00:02|  0:00:15|
+# Route    | 16|    22|    51|  26|  116|  160|    0|   0|  9|  0:00:02|  0:00:17|
+# Route    | 17|    20|    53|  29|  116|  159|    0|   0|  0|  0:00:01|  0:00:18|
+# Route    | 18|    29|    55|  22|  116|  159|    0|   0|  0|  0:00:01|  0:00:19|
+# Route    | 19|    30|    57|  31|  116|  167|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 20|    29|    57|  25|  116|  163|    0|   0|  1|  0:00:01|  0:00:21|
+# Route    | 21|    23|    56|  21|  116|  163|    0|   0|  8|  0:00:01|  0:00:22|
+# Route    | 22|    17|    47|  26|  117|  166|    0|   0| 18|  0:00:01|  0:00:23|
+# Route    | 23|    17|    45|  21|  117|  162|    0|   0|  3|  0:00:01|  0:00:24|
+# Route    | 24|    17|    45|  26|  117|  162|    0|   0|  0|  0:00:01|  0:00:25|
+# Route    | 25|    22|    79|  31|  113|  170|    0|   0|  0|  0:00:02|  0:00:27|
+# Route    | 26|    19|    52|  35|  116|  163|    0|   0| 29|  0:00:02|  0:00:29|
+# Route    | 27|    20|    53|  44|  116|  165|    0|   0|  0|  0:00:02|  0:00:31|
+# Route    | 28|    17|    67|  34|  114|  170|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 29|    22|    50|  40|  115|  164|    0|   0| 14|  0:00:02|  0:00:34|
+# Route    | 30|    23|    50|  33|  115|  163|    0|   0|  0|  0:00:02|  0:00:36|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:36
+# 
+# Wiring Statistics ----------------- C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Nets 95 Connections 296 Unroutes 115
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 93, at vias 54 Total Vias 163
+# Percent Connected   46.28
+# Manhattan Length 116148.8760 Horizontal 86987.0105 Vertical 29161.8655
+# Routed Length 123294.4835 Horizontal 80217.3010 Vertical 46920.6358
+# Ratio Actual / Manhattan   1.0615
+# Unconnected Length 29168.2430 Horizontal 19397.3440 Vertical 9770.8990
+clean 2
+# Current time = Fri Jan 24 21:35:12 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------  VIA_12
+# BOTTOM  VIA_12  ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0010 with offset 0.0000
+# Layer TOP Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Nets 95 Connections 296 Unroutes 115
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 93, at vias 54 Total Vias 163
+# Percent Connected   46.28
+# Manhattan Length 116148.8760 Horizontal 86987.0105 Vertical 29161.8655
+# Routed Length 123294.4835 Horizontal 80217.3010 Vertical 46920.6358
+# Ratio Actual / Manhattan   1.0615
+# Unconnected Length 29168.2430 Horizontal 19397.3440 Vertical 9770.8990
+# Start Clean Pass 1 of 2
+# Routing 349 wires.
+# Total Conflicts: 73 (Cross: 23, Clear: 50, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 115
+# Attempts 253 Successes 189 Failures 64 Vias 163
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 370 wires.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 73 (Cross: 23, Clear: 50, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 113
+# Attempts 258 Successes 195 Failures 63 Vias 161
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 2 of 2
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0010 with offset 0.0000
+# Layer TOP Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Fanout   |  1|    32|   153|  74|  295|  259|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  2|    24|   119|  60|  295|  273|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  3|    13|    13| 100|  295|  233|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  4|    15|    16|  96|  295|  237|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  5|     0|     0| 114|  295|  219|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  6|    55|    67|  53|  187|  167|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  7|   147|   207|  20|  150|  159|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  8|   133|   123|  43|  131|  138|    0|   0| 27|  0:00:01|  0:00:02|
+# Route    |  9|    90|   131|  38|  119|  135|    0|   0| 13|  0:00:01|  0:00:03|
+# Route    | 10|    66|   106|  36|  118|  151|    0|   0| 22|  0:00:02|  0:00:05|
+# Route    | 11|    36|    53|  32|  119|  148|    0|   0| 48|  0:00:02|  0:00:07|
+# Route    | 12|    27|    49|  36|  119|  150|    0|   0| 14|  0:00:02|  0:00:09|
+# Route    | 13|    35|    67|  34|  116|  158|    0|   0|  0|  0:00:02|  0:00:11|
+# Route    | 14|    29|    62|  36|  116|  160|    0|   0| 10|  0:00:02|  0:00:13|
+# Route    | 15|    28|    53|  34|  118|  162|    0|   0| 10|  0:00:02|  0:00:15|
+# Route    | 16|    22|    51|  26|  116|  160|    0|   0|  9|  0:00:02|  0:00:17|
+# Route    | 17|    20|    53|  29|  116|  159|    0|   0|  0|  0:00:01|  0:00:18|
+# Route    | 18|    29|    55|  22|  116|  159|    0|   0|  0|  0:00:01|  0:00:19|
+# Route    | 19|    30|    57|  31|  116|  167|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 20|    29|    57|  25|  116|  163|    0|   0|  1|  0:00:01|  0:00:21|
+# Route    | 21|    23|    56|  21|  116|  163|    0|   0|  8|  0:00:01|  0:00:22|
+# Route    | 22|    17|    47|  26|  117|  166|    0|   0| 18|  0:00:01|  0:00:23|
+# Route    | 23|    17|    45|  21|  117|  162|    0|   0|  3|  0:00:01|  0:00:24|
+# Route    | 24|    17|    45|  26|  117|  162|    0|   0|  0|  0:00:01|  0:00:25|
+# Route    | 25|    22|    79|  31|  113|  170|    0|   0|  0|  0:00:02|  0:00:27|
+# Route    | 26|    19|    52|  35|  116|  163|    0|   0| 29|  0:00:02|  0:00:29|
+# Route    | 27|    20|    53|  44|  116|  165|    0|   0|  0|  0:00:02|  0:00:31|
+# Route    | 28|    17|    67|  34|  114|  170|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 29|    22|    50|  40|  115|  164|    0|   0| 14|  0:00:02|  0:00:34|
+# Route    | 30|    23|    50|  33|  115|  163|    0|   0|  0|  0:00:02|  0:00:36|
+# Clean    | 31|    23|    50|  64|  115|  163|    0|   0|   |  0:00:01|  0:00:37|
+# Clean    | 32|    23|    50|  63|  113|  161|    0|   0|   |  0:00:01|  0:00:38|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:38
+# 
+# Wiring Statistics ----------------- C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Nets 95 Connections 296 Unroutes 113
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 100, at vias 52 Total Vias 160
+# Percent Connected   47.30
+# Manhattan Length 116459.3261 Horizontal 87338.5527 Vertical 29120.7734
+# Routed Length 122633.7020 Horizontal 79958.9382 Vertical 46158.1240
+# Ratio Actual / Manhattan   1.0530
+# Unconnected Length 29081.4596 Horizontal 19513.8478 Vertical 9567.6118
+spread (extra 4.000000)
+# Current time = Fri Jan 24 21:35:14 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------  VIA_12
+# BOTTOM  VIA_12  ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0010 with offset 0.0000
+# Layer TOP Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# Layer BOTTOM Orth Signal Wire Grid 0.0010 with offset 0.0000, Width= 8.0000, Clearance= 8.0000
+# 
+# Wiring Statistics ----------------- C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Nets 95 Connections 296 Unroutes 113
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 100, at vias 52 Total Vias 160
+# Percent Connected   47.30
+# Manhattan Length 116459.3261 Horizontal 87338.5527 Vertical 29120.7734
+# Routed Length 122633.7020 Horizontal 79958.9382 Vertical 46158.1240
+# Ratio Actual / Manhattan   1.0530
+# Unconnected Length 29081.4596 Horizontal 19513.8478 Vertical 9567.6118
+# 29 bend points have been removed.
+# 33 bend points have been removed.
+# 23 bend points have been removed.
+# Total Conflicts: 75 (Cross: 23, Clear: 52, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Nets 95 Connections 296 Unroutes 113
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 100, at vias 52 Total Vias 160
+# Percent Connected   47.30
+# Manhattan Length 116459.3261 Horizontal 87338.5527 Vertical 29120.7734
+# Routed Length 122967.8220 Horizontal 79997.2042 Vertical 46493.0980
+# Ratio Actual / Manhattan   1.0559
+# Unconnected Length 29081.4596 Horizontal 19513.8478 Vertical 9567.6118
+miter 4 (style diagonal) (pin) (slant) (tjunction) (bend) (layer TOP BOTTOM)
+# Diagonal wire corners are preferred.
+# Current time = Fri Jan 24 21:35:15 2014
+# 0 bend points have been removed.
+# Convert orthogonal pin exit to diagonal...
+# Convert wire segment to diagonal...
+# Convert orthogonal corner to diagonal...
+# 12 bend points have been removed.
+# Corners changed 232
+# 90 degree wire corners are preferred.
+# Total Conflicts: 75 (Cross: 23, Clear: 52, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:02
+# 
+# Wiring Statistics ----------------- C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Nets 95 Connections 296 Unroutes 113
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 100, at vias 52 Total Vias 160
+# Percent Connected   47.30
+# Manhattan Length 116459.3261 Horizontal 87312.2950 Vertical 29147.0311
+# Routed Length 117003.3530 Horizontal 79997.2042 Vertical 46493.0980
+# Ratio Actual / Manhattan   1.0047
+# Unconnected Length 29081.4596 Horizontal 19513.8478 Vertical 9567.6118
+delete conflicts (include fast)
+# Current time = Fri Jan 24 21:35:17 2014
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/Liber/Desktop/SmartRing-V1.02/PCB\SmartRing.dsn
+# Nets 95 Connections 296 Unroutes 139
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 99, at vias 51 Total Vias 138
+# Percent Connected   53.04
+# Manhattan Length 116459.3261 Horizontal 88542.0233 Vertical 27917.3028
+# Routed Length 86397.6875 Horizontal 58093.7275 Vertical 35642.1637
+# Ratio Actual / Manhattan   0.7419
+# Unconnected Length 53273.0522 Horizontal 39624.3691 Vertical 13648.6831
+write routes (changed_only) (reset_changed) C:/Users/Liber/AppData/Local/Temp/#Taaaaac33428.tmp
+# Routing Written to File C:/Users/Liber/AppData/Local/Temp/#Taaaaac33428.tmp
+quit

@@ -1,0 +1,98 @@
+Thu Jan 23 19:42:18 2014				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Thu Jan 23 19:42:18 2014
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : SmartRing.brd                                 )
+(    Software Version : 16.3p003                                      )
+(    Date/Time        : Thu Jan 23 19:42:18 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Thu Jan 23 19:42:18 2014				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+OLD_LAYOUT_NAME = 'C:/Users/Liber/Desktop/SmartRing-V1.02/PCB/SmartRing.brd';
+NEW_LAYOUT_NAME = '';
+REFRESH_MECHANICAL_SYMBOLS = 'NO';
+REFRESH_FORMAT_SYMBOLS = 'NO';
+REFRESH_PACKAGE_SYMBOLS = 'YES';
+REFRESH_SHAPE_SYMBOLS = 'NO';
+REFRESH_SYMBOL_PAD_STACKS = 'NO';
+REFRESH_SYMBOL_TEXT_LOCATIONS = 'NO';
+REFRESH_CUSTOM_DRILL_DATA = 'NO';
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+           C:\Users\Liber\Desktop\leds\lib\ 
+           C:\USERS\LIBER\DESKTOP\NEWLIB\lib\ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+           C:\Users\Liber\Desktop\leds\lib\ 
+           C:\USERS\LIBER\DESKTOP\NEWLIB\LIB\ 
+           C:\Users\Liber\Desktop\newLib\lib\VIA_12\ 
+
+
+------ Symbol Refresh Messages ------
+
+'HEADER5X2_1'  symbol refreshed successfully.
+'TP1'  symbol refreshed successfully.
+'SIM800L'  symbol refreshed successfully.
+'CC2541'  symbol refreshed successfully.
+'BQ24072'  symbol refreshed successfully.
+'HEADER8X2'  symbol refreshed successfully.
+'MC3210'  symbol refreshed successfully.
+'ANSMD_RAINSUN'  symbol refreshed successfully.
+'LFB182G45BG2D280'  symbol refreshed successfully.
+'TPS61220DCKR'  symbol refreshed successfully.
+'HEADER3X2'  symbol refreshed successfully.
+'SIMCARD'  symbol refreshed successfully.
+'SMF05C'  symbol refreshed successfully.
+'MAX8515AEXK-T'  symbol refreshed successfully.
+'FA-118T'  symbol refreshed successfully.
+'BAT'  symbol refreshed successfully.
+'SW'  symbol refreshed successfully.
+'S9013-SOT-23'  symbol refreshed successfully.
+'C0402'  symbol refreshed successfully.
+'PESD5V0S1BL'  symbol refreshed successfully.
+'L0402'  symbol refreshed successfully.
+'LED0402'  symbol refreshed successfully.
+'R0402'  symbol refreshed successfully.
+'ANSMD3216'  symbol refreshed successfully.
+'Y_FC_12M'  symbol refreshed successfully.
+'MICROUSB'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Completed refreshing all symbols successfully.

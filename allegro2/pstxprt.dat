@@ -1,0 +1,550 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.3.0 p002Mar-26-2014 at 22:36:13 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SMARTRING';
+ POST_TIME='Nov 17 2009 03:09:43';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ A1 'AN_SMD_1_ANSMD3216_AN_SMD':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS58212@SMARTRING.AN_SMD_1.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins58212@smartring.\an_smd_1.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins58212@smartring.\an_smd_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ B1 'BALUN_LFB182G45BG2D280_LFB182G4':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS41631@MYLIB_ZX.BALUN_LFB182G45BG2D280.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins41631@mylib_zx.\balun_lfb182g45bg2d280.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins41631@mylib_zx.\balun_lfb182g45bg2d280.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ BT1 'BATTERY_CR2032_CR2032':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS164711@DISCRETE.BATTERY.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins164711@discrete.\battery.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page2_ins164711@discrete.\battery.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'CAP-NP_C0402_22PF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS12797@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins12797@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins12797@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP-NP_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS13611@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins13611@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins13611@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP-NP_C0402_200PF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS13627@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins13627@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins13627@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP-NP_C0402_2.2UF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS40088@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins40088@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins40088@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'CAP-NP_C0402_1UF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS40598@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins40598@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins40598@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAP-NP_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS40979@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins40979@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins40979@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP NP_C0402_2.2UF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS157889@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins157889@discrete.\cap np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page2_ins157889@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP-POL_C0402_1210':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS158021@MYLIB_ZX.CAP-POL.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins158021@mylib_zx.\cap-pol.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page2_ins158021@mylib_zx.\cap-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP NP_C0402_2.2UF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS157909@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins157909@discrete.\cap np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page2_ins157909@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP POL_3216-18_CAP POL':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS159529@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins159529@discrete.\cap pol.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page3_ins159529@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP NP_C0402_CAP NP':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS159499@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins159499@discrete.\cap np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page3_ins159499@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP-NP_C0402_22PF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS12781@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins12781@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins12781@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAP NP_C0402_10NF_25V_GRM155R71':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS158781@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins158781@discrete.\cap np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page3_ins158781@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP-NP_C0402_100PF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS177220@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins177220@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins177220@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP-NP_C0402_1UF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS12556@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins12556@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins12556@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP-NP_C0402_12PF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS14339@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins14339@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins14339@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4_GRM1555C1H1R2CZ01D1 'CAP-NP_C0402_1.2PF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS42188@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins42188@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins42188@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP-NP_C0402_12PF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS14323@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins14323@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins14323@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP-NP_C0402_1NF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS19218@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins19218@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins19218@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP-NP_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS13392@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins13392@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins13392@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP-NP_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS13579@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins13579@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins13579@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP-NP_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS13595@MYLIB_ZX.CAP-NP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins13595@mylib_zx.\cap-np.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins13595@mylib_zx.\cap-np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'DIODE_LL60_1N60P_LL34':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS189247@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins189247@discrete.\diode.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins189247@discrete.\diode.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'HEADER 8_FPC_8PIN_0_5MM_SKINCLO':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS168398@CONNECTOR.HEADER 8.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins168398@connector.\header 8.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins168398@connector.\header 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CC_DEBUGGER_HEADER_2X5_6_CC_DEB':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS38333@MYLIB_ZX.CC_DEBUGGER.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins38333@mylib_zx.\cc_debugger.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins38333@mylib_zx.\cc_debugger.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'HEADER 7_FPC_7PIN_0_5MM_SIM800_':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS179022@CONNECTOR.HEADER 7.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins179022@connector.\header 7.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins179022@connector.\header 7.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'HEADER 3_HEADER1X3_UART':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS203361@CONNECTOR.HEADER 3.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins203361@connector.\header 3.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins203361@connector.\header 3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'L_L0402_? NH':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS17589@MYLIB_ZX.L.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins17589@mylib_zx.\l.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins17589@mylib_zx.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'L_L0402_2.2UH':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS157861@MYLIB_ZX.L.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins157861@mylib_zx.\l.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page2_ins157861@mylib_zx.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'BEAD_L0402_LBEAD_BLM15HG102SN1D':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS157985@DISCRETE.BEAD.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins157985@discrete.\bead.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page2_ins157985@discrete.\bead.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED1 'LED_LED0402_RED':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS188702@MYLIB_ZX.LED.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins188702@mylib_zx.\led.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins188702@mylib_zx.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'NPN_SOT923_MMBT3904SL-SOT-923':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS177104@MYLIB_ZX.NPN.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins177104@mylib_zx.\npn.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins177104@mylib_zx.\npn.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_R0402_330R':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS188678@MYLIB_ZX.R.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins188678@mylib_zx.\r.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins188678@mylib_zx.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_R0402_4.7K':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS177166@MYLIB_ZX.R.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins177166@mylib_zx.\r.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins177166@mylib_zx.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_R0402_47K':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS177186@MYLIB_ZX.R.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins177186@mylib_zx.\r.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins177186@mylib_zx.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_R0402_2K2':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS166130@MYLIB_ZX.R.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins166130@mylib_zx.\r.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins166130@mylib_zx.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_R0402_2K2':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS166114@MYLIB_ZX.R.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins166114@mylib_zx.\r.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins166114@mylib_zx.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_R0402_56K-1%':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS13109@MYLIB_ZX.R.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins13109@mylib_zx.\r.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins13109@mylib_zx.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_R0402_4.7K':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS86820@MYLIB_ZX.R.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins86820@mylib_zx.\r.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins86820@mylib_zx.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_R0402_4.7K':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS86836@MYLIB_ZX.R.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins86836@mylib_zx.\r.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins86836@mylib_zx.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_R0402_2K7':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS19202@MYLIB_ZX.R.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins19202@mylib_zx.\r.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins19202@mylib_zx.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_R0402_20K':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS177140@MYLIB_ZX.R.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins177140@mylib_zx.\r.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins177140@mylib_zx.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP1 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS190065@MYLIB_ZX.TP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins190065@mylib_zx.\tp.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins190065@mylib_zx.\tp.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP2 'TP_TP1_TP':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS190116@MYLIB_ZX.TP.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins190116@mylib_zx.\tp.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins190116@mylib_zx.\tp.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'CC2541_RHA40_4P5X4P5_CC2541-VQF':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS11820@MYLIB_ZX.CC2541.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins11820@mylib_zx.\cc2541.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins11820@mylib_zx.\cc2541.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'TPS62730_DRY6_TPS62730':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS158063@LIBRARY3.TPS62730.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins158063@library3.\tps62730.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page2_ins158063@library3.\tps62730.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'LIS3DH_LIS3DH_LIS3DH':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS158971@LIBRARY3.LIS3DH.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins158971@library3.\lis3dh.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page3_ins158971@library3.\lis3dh.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'SHT25_0_SHT25_SHT25':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS158564@SMARTRING.SHT25_0.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins158564@smartring.\sht25_0.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page3_ins158564@smartring.\sht25_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'MX25U1635EZUI-10G_0_MX25U1635EZ':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS188302@SMARTRING.MX25U1635EZUI-10G_0.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins188302@smartring.\mx25u1635ezui-10g_0.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins188302@smartring.\mx25u1635ezui-10g_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'CRYSTAL_2PIN_Y_FC_12M_32.768KHZ':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS12813@MYLIB_ZX.CRYSTAL_2PIN.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins12813@mylib_zx.\crystal_2pin.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins12813@mylib_zx.\crystal_2pin.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y2 'CRYSTAL_4PIN_US_FA-118T_32MHZ':;
+
+SECTION_NUMBER 1
+ '@SMARTRING.SCHEMATIC1(SCH_1):INS14303@MYLIB_ZX.CRYSTAL_4PIN_US.NORMAL(CHIPS)':
+ C_PATH='@smartring.schematic1(sch_1):ins14303@mylib_zx.\crystal_4pin_us.normal\(chips)',
+ P_PATH='@smartring.schematic1(sch_1):page1_ins14303@mylib_zx.\crystal_4pin_us.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

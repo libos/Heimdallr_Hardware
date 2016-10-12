@@ -1,0 +1,54 @@
+\t (00:00:01) allegro 16.3 p006 (v16-3-85F) i86
+\t (00:00:01) 
+
+\t (00:00:01) Opening existing drawing...
+\d (00:00:01) Database opened: C:/Users/Liber/Desktop/SmartRing-V1.03/version3/MainBoard.brd
+\t (00:00:01) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (00:00:01) trapsize 15620
+\i (00:00:01) trapsize 15314
+\i (00:00:01) trapsize 15601
+\i (00:00:01) trapsize 15601
+\i (00:00:02) generaledit 
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 262.093 -332.292
+\i (00:00:03) trapsize 7800
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 262.093 -332.292
+\t (00:00:03) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (00:00:03) trapsize 3900
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 262.093 -332.291
+\t (00:00:04) Grids are drawn 16.000, 16.000 apart for enhanced viewability.
+\i (00:00:04) trapsize 7800
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 262.093 -332.292
+\i (00:00:04) trapsize 15601
+\i (00:00:05) pick grid 296.415 -404.054
+\t (00:00:05) last pick:  296.000  -404.000
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 296.415 -404.054
+\i (00:00:07) trapsize 7800
+\i (00:00:08) drag_start grid 287.054 -413.415
+\i (00:00:08) drag_stop 297.975 -457.096
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 266.774 -433.695
+\t (00:00:09) Grids are drawn 4.000, 4.000 apart for enhanced viewability.
+\i (00:00:09) trapsize 3900
+\i (00:00:10) setwindow form.find
+\i (00:00:10) FORM find all_on  
+\i (00:00:12) setwindow pcb
+\i (00:00:12) drag_start grid 251.953 -437.595
+\i (00:00:12) drag_stop 281.594 -479.717
+\i (00:00:16) drag_start grid 193.451 -499.997
+\i (00:00:18) drag_stop 161.470 -480.497
+\i (00:00:21) pick grid 294.855 -485.177
+\t (00:00:21) last pick:  295.000  -485.000
+\i (00:00:24) drag_start grid 202.031 -499.997
+\i (00:00:26) drag_stop 162.250 -477.376
+\i (00:00:31) exit 

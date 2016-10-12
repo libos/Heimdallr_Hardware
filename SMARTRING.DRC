@@ -1,0 +1,173 @@
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    SIM_CLK
+    VSIM
+    SIM_DATA
+    SIM_RST
+
+Reporting Off-Page Connections
+    BAT_ADC
+    USB_DM
+    MC3210_INT
+    USART_RXD
+    MC3210_SDA
+    USB_DP
+    USART_TXD
+    SIM800_PK
+    SIM800_RST
+    MC3210_SCK
+
+Reporting Globals
+    BAT
+    USB_5V
+    DGND
+    DVDD3V6
+    DVDD2V8
+
+Checking Misleading Tap connection
+
+Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: SMARTRING 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+
+Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+
+Checking Name Property for Hierarchical Instances  
+
+Check High Speed Properties Syntax
+
+Check Power Ground Mismatch
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 4.40) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 3.90) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 3.80) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 3.40) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 3.30) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 3.00) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 2.90) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 3.50) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 3.10) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 3.70) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 2.70) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 2.60) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 3.20) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 3.60) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 2.80) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 2.50) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 2.40) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 1.80) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 2.00) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.30, 1.90) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (6.00, 2.50) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (2.90, 1.20) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (3.10, 1.20) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (3.20, 1.20) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (3.40, 1.20) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (3.60, 1.20) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (5.20, 1.20) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (3.70, 4.90) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,GND GND  DGND
+                    SCHEMATIC1, SIM800L  (6.00, 3.80) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U3,GND GND  DGND
+                    SCHEMATIC1, POWER  (2.30, 4.90) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? J2,GND GND  DGND
+                    SCHEMATIC1, POWER  (1.70, 1.50) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,GND GND  DGND
+                    SCHEMATIC1, CC2541  (1.80, 2.60) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,GND GND  DGND
+                    SCHEMATIC1, CC2541  (3.70, 2.10) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? J1,GND GND  DGND
+                    SCHEMATIC1, CC2541  (7.10, 4.70) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U3,VOUT VOUT  DVDD2V8
+                    SCHEMATIC1, POWER  (3.40, 4.40) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD5 AVDD5  DVDD2V8
+                    SCHEMATIC1, CC2541  (4.30, 3.50) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD3 AVDD3  DVDD2V8
+                    SCHEMATIC1, CC2541  (4.30, 3.20) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD2 AVDD2  DVDD2V8
+                    SCHEMATIC1, CC2541  (4.30, 2.90) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD1 AVDD1  DVDD2V8
+                    SCHEMATIC1, CC2541  (4.30, 2.80) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD4 AVDD4  DVDD2V8
+                    SCHEMATIC1, CC2541  (4.30, 2.70) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,AVDD6 AVDD6  DVDD2V8
+                    SCHEMATIC1, CC2541  (3.50, 1.80) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,DVDD2 DVDD2  DVDD2V8
+                    SCHEMATIC1, CC2541  (1.80, 3.50) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U1,DVDD1 DVDD1  DVDD2V8
+                    SCHEMATIC1, CC2541  (2.70, 1.80) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,VBAT VBAT  DVDD3V6
+                    SCHEMATIC1, SIM800L  (2.30, 2.30) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U6,VBAT VBAT  DVDD3V6
+                    SCHEMATIC1, SIM800L  (2.30, 2.20) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

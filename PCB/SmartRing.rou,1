@@ -1,0 +1,11 @@
+;EXTENTS: -10.000 -10.000 30.000  30.000  
+;LEADER: 12 
+;HEADER: MainBoard 
+;CODE  : ASCII 
+;FILE  : SmartRing.rou for board SmartRing.brd
+%
+G90
+F1
+M16
+G40
+M30
